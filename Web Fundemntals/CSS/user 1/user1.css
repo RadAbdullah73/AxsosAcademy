@@ -1,0 +1,55 @@
+.page { 
+    background-color:  white;
+    height: 100%;
+    width: 100%;
+}
+.box{
+    margin-top: 100px;
+    
+}
+.blue {
+    height: 100px;
+    width: 700px;
+    background-color: #17a2b8 ;
+    margin: 0 auto;
+    
+    
+}
+.map{
+    display: flex;
+    
+}
+.picture{
+    border: 50px bold grey;
+   border-radius: 50%;
+   position: relative;
+   left: 370px;
+   bottom:70px;
+   
+}
+.white{
+    width: 673px ;
+    height: 300px;
+    border-left: 3px solid grey ;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    margin: 0 auto;
+    padding-left: 20px;
+  padding-top: 100px;
+  position: relative;
+  bottom: 155px;
+
+  
+}
+.skills { 
+    font-size: 20px ; 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+a {
+    font-size: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+.gear{
+    margin-top: 10px;
+}

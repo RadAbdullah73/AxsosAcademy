@@ -1,0 +1,67 @@
+.page { 
+background-color: white;
+
+}
+.small{
+    height:150px ;
+    width: 905px;
+    background-color: #17a2b8;
+    
+    
+
+}
+.big {
+    height: 450px;
+    width : 895px;
+    background-color: white;
+    padding-top: 5px;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    border-bottom: 5px solid grey;
+    border-color: grey;
+
+    
+
+}
+.name{
+    color: black;
+    position: relative;
+    top: 95px ;
+    left: 30px ; 
+}
+.edit { 
+    font-weight: bold ;
+    color: darkblue ;
+
+}
+.picture { 
+    position: absolute ;
+    top: 75px ; 
+    padding-left: 35px;
+
+}
+
+
+
+
+
+.location { 
+    display: flex;
+    position: relative;
+    top: 95px ;
+    left: 40px ; 
+
+}
+.skills{
+    position: relative;
+    top: 95px ;
+    left: 30px ; 
+}
+.edit{
+    position: relative;
+    top: 95px ;
+    left: 40px ; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
