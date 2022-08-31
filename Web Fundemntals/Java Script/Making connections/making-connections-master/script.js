@@ -1,8 +1,6 @@
 var element= document.querySelector("#jan")
 function fun1(){
-    element.innerText = "Rana";
-
-}
+    element.innerText = "Rana"}
 
 var rm=document.querySelector(".card-list-item1");
 var re=document.querySelector(".badge")

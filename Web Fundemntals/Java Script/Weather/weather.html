@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather condition</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h1>Dojo Weather</h1>
+        <a onclick="fun2()" id="city" href="#">Burbank</a>
+        <a onclick="fun2()" id="city" href="#">Chicago</a>
+        <a onclick="fun2()" id="city" href="#">Dallas</a>
+    </nav>
+    <header class="header">
+        <h2>San Jose</h2>
+        <p class="temp"> Show tempreature in
+            <select onchange="fun3(this)" >
+                <option value="c">℃</option>
+                <option value="f" >°F</option>
+            </select>
+        </p>
+    </header>
+    <subheader>
+        <div class="days">
+            <h3>Today</h3>
+            <img src="assets\some_rain.png" alt="Rainy">
+            <p class="some">Some Rain</p>
+            <p id="numbers">
+            <h4 class="f1" >24</h4>
+            <h5 class="s1" >18</h5>
+            </p>
+        </div>
+        <div class="days">
+            <h3>Tomorow</h3>
+            <img src="assets\some_sun.png" alt="Sunny">
+            <p class="some">Some Sun</p>
+            <p id="numbers">
+            <h4 class="f2" >27</h4>
+            <h5 class="s2" >19</h5>
+            </p>
+        </div>
+        <div class="days">
+            <h3>Friday</h3>
+            <img src="assets\some_clouds.png" alt="Cloudy">
+            <p class="some">Some Clouds</p>
+            <p id="numbers">
+            <h4 class="f3" >21</h4>
+            <h5 class="s3" >16</h5>
+            </p>
+        </div>
+        <div class="days">
+            <h3>Saturday</h3>
+            <img src="assets\some_sun.png" alt="Sunny">
+            <p class="some">Some Sun</p>
+            <p id="numbers">
+            <h4 class="f4" >26</h4>
+            <h5 class="s4" >21</h5>
+            </p>
+        </div>
+    </subheader>
+    <footer class="footer" >
+        <img class="coockie" src="assets\cookie.png" alt="cookie">
+        <aside>
+        <p class="stop" >Stop! Coockie time !     
+        </p>
+        <p class="we" >We use cookies (sadly not the edible ones) to personalize
+            content and ads, to provide social media features and to
+            analyse our traffc. <span> <a href="#">Read more...</a> </span> </p>
+        </aside>
+        <button class="btn" onclick="fun1()" >I Accept</button>
+    </footer>
+    <script src="weather.js" ></script>
+</body>
+
+</html>
