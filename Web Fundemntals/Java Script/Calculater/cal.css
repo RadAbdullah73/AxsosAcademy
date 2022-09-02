@@ -20,8 +20,14 @@ button {
     font-family: cursive;
     font-size: 20px;
 }
+button:active {
+    background-color: #FF8C00;
+}
 .operator {
     background-color: #FF8C00;
+}
+.operator:active {
+    background-color: blueviolet;
 }
 #equals {
     background-color: #CCCCCC;
@@ -30,6 +36,9 @@ button {
     border-radius: 15px;
     color: black;
     font-size: 30px;
+}
+#equals:active { 
+    background-color: red;
 }
 .row {
     display: flex;
