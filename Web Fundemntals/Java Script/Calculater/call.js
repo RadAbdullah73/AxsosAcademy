@@ -2,7 +2,7 @@ var num1; // Global Variabel to use in Functions setOP & press  .
 var x; // Global Variabel to use in Functions setOP & press  . 
 var clear = document.querySelector("#display")
 function clr() {
-    clear.innerText = "";
+    clear.innerText = "0";
 }
 function press(n) {
     if (clear.innerText == 0) {
