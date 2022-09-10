@@ -1,0 +1,17 @@
+mkdir test
+touch index.html
+touch style.css
+git init
+git add .
+git commit -m "initial commmit " 
+git status
+git add . 
+git commit "update html"
+git status
+git add.
+git commit"update css"
+git status . 
+
+
+----
+Ra'd Abdullah * Laith Barooq
