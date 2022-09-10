@@ -1,4 +1,6 @@
 var co = document.querySelector(".footer")
+
+//THIS FUNCARION will do  .....
 function fun1() { 
     co.remove() ; 
 }
@@ -36,25 +38,26 @@ function fun2 () {
 // }
 // --------------------------------------------
 // coppied solution : 
-// var f=[document.querySelector(".f1").innerText,document.querySelector(".f2").innerText,document.querySelector(".f3").innerText,document.querySelector(".f4").innerText]
-// var s=[document.querySelector(".s1").innerText,document.querySelector(".s2").innerText,document.querySelector(".s3").innerText,document.querySelector(".s4").innerText]
-// var f1=[parseInt(f[0],10),parseInt(f[1],10),parseInt(f[2],10),parseInt(f[3],10)]
-// var s1=[parseInt(s[0],10),parseInt(s[1],10),parseInt(s[2],10),parseInt(s[3],10)]
-// var f2=[(f1[0]*(9/5)+32),(f1[1]*(9/5)+32),(f1[2]*(9/5)+32),(f1[3]*(9/5)+32)]
-// var s2=[(s1[0]*(9/5)+32),(s1[1]*(9/5)+32),(s1[2]*(9/5)+32),(s1[3]*(9/5)+32)]
+var TempRate = 1.8
+var f=[document.querySelector(".f1").innerText,document.querySelector(".f2").innerText,document.querySelector(".f3").innerText,document.querySelector(".f4").innerText]
+var s=[document.querySelector(".s1").innerText,document.querySelector(".s2").innerText,document.querySelector(".s3").innerText,document.querySelector(".s4").innerText]
+var f1=[parseInt(f[0],10),parseInt(f[1],10),parseInt(f[2],10),parseInt(f[3],10)]
+var s1=[parseInt(s[0],10),parseInt(s[1],10),parseInt(s[2],10),parseInt(s[3],10)]
+var f2=[(f1[0]*(TempRate)+32),(f1[1]*(9/5)+32),(f1[2]*(9/5)+32),(f1[3]*(9/5)+32)]
+var s2=[(s1[0]*(TempRate)+32),(s1[1]*(9/5)+32),(s1[2]*(9/5)+32),(s1[3]*(9/5)+32)]
 
 
-// function fun3(e) {
-//     for(var i=0;i<4;i++){
-//         if(e.value=='f'){
-//             document.querySelector(".f"+(i+1)).innerText=Math.floor(f1[i]*(9/5)+32)
-//             document.querySelector(".s"+(i+1)).innerText=Math.floor(s1[i]*(9/5)+32)
-//         }
-//         if(e.value=='c'){
-//             document.querySelector(".f"+(i+1)).innerText=Math.floor((f2[i]-32)*(5/9))
-//             document.querySelector(".s"+(i+1)).innerText=Math.floor((s2[i]-32)*(5/9))
-//         }
-//     }
-// }
+function fun3(e) {
+     for(var i=0;i<4;i++){
+        if(e.value=='f'){
+            document.querySelector(".f"+(i+1)).innerText=Math.floor(f1[i]*(9/5)+32)
+            document.querySelector(".s"+(i+1)).innerText=Math.floor(s1[i]*(9/5)+32)
+      }
+        if(e.value=='c'){
+             document.querySelector(".f"+(i+1)).innerText=Math.floor((f2[i]-32)*(5/9))
+             document.querySelector(".s"+(i+1)).innerText=Math.floor((s2[i]-32)*(5/9))
+         }
+     }
+ }
 
 
