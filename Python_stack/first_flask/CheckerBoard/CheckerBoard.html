@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheakerBoraed</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CheakerBoard.css')}}">
+    <link rel="stylesheet" href="CheakerBoard.css">
+    <style>
+        .first_square{
+            background-color:{{c2}}
+        }
+        .second_square{
+            background-color: {{c1}}
+        }
+    </style>
+<body>
+
+    {%for x in range(rows) :%}
+    <div class="row">
+        {%for i in range(col) :%}
+            {%if x %2 ==0:%}
+                {%if i%2==0 %}
+                    <div class="first_square"></div>
+            {%else%}
+                <div class="second_square"></div>
+                {%endif%}
+            {%else%} 
+                {%if i%2==1 %}
+                <div class="first_square"></div>
+                {%else%}
+                <div class="second_square"></div>
+                {%endif%}
+            {%endif%}
+        {%endfor%}
+        </div>
+    {%endfor%}
+</body>
+
+</html>
