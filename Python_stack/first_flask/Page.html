@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            margin-left: 290px;
+            margin-top: 20px;
+            box-shadow: 2px 2px 2px 2px black;
+            background-color: #76A5AF;
+            border: 1px solid #76A5AF;
+            color: white;
+        }
+
+        main {
+            border: 2px solid black;
+            width: 400px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+
+        p {
+            margin-left: 20px;
+            font-family: cursive;
+        }
+
+        .header {
+            text-decoration: underline;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- <form action='/handleformTwo' method='post'> -->
+            <p class="header">Submitted info</p>
+            <p>Name : {{fname}}</p>
+            <p>Location : {{flocation}}</p>
+            <p>Favorite Language : {{flanguage}}</p>
+            <p>Comment : {{fcomment}}</p>
+            <input class="btn" type='submit' value='Go Back'>
+        <!-- </form> -->
+    </main>
+</body>
+
+</html>
