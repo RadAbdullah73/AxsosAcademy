@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo_Survey</title>
+</head>
+<style>
+    main{
+        border: 2px solid black;
+        width: 400px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .comment{
+        width: 300px;
+        height: 100px;
+        margin-left: 40px;
+    }
+    .btn{
+        margin-left: 290px;
+        margin-top: 5px;
+        box-shadow: 2px 2px 2px 2px black;
+        background-color: #76A5AF;
+        border: 1px solid #76A5AF;
+        color: white;
+    }
+    select{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    input{
+        margin-left: 60px;
+    }
+    p{
+        margin-left: 30px;
+    }
+</style>
+
+<body>
+    <main>
+        <form action='handleform/' method='post'>
+            {% csrf_token %}
+            <p>Your Name: <input  type='text' name='name'></p>
+            <select name="location">
+                <option value="SanJose">SanJose</option>
+                <option value="NewYork">NewYork</option>
+                <option value="Miami">Miami</option>
+            </select> <br>
+            <select name="language">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </select>
+            <p>Comment (Optional):</p>
+            <input class="comment" type='text' name="cmt">
+            <input class="btn" type='submit' value='Submit'>
+        </form>
+    </main>
+
+
+</body>
+
+</html>
