@@ -19,3 +19,7 @@ def result(request):
 
 def res(request):
     return render (request , 'index.html')
+
+def PlayAgian(request):
+    return redirect ('/')
+    

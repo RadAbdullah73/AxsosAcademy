@@ -5,5 +5,6 @@ urlpatterns = [
     path('', views.Number),
     path('result/' , views.result),
     path('show' , views.res),
+    path('again/' , views.PlayAgian),
     # path('MyResult/' , views.YourResult)
 ]
