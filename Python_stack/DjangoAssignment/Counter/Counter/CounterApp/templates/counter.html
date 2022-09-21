@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            font-family: cursive;
+            color: red;
+        }
+        p {
+            font-family: cursive;
+            color: red;
+            font-size: 25px;
+        }
+        .counts {
+            color: green;
+        }
+        input {
+            border: 2px solid black;
+            box-shadow: 4px 4px 4px 4px red;
+            background-color: white;
+            font-size: 20px;
+            font-family: cursive;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="ByTwo/">
+        <h1>Counter</h1>
+        <p> <span class="counts" name='counter'>{{request.session.count}}</span> Times</p>
+        <input type="submit" , value="increment__By__Two">
+    </form>
+    <form action="Reset/">
+        <input type="submit" , value="Reset">
+    </form>
+</body>
+
+</html>
