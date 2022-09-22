@@ -1,0 +1,55 @@
+C:\Users\ابداع\Desktop\AxsosAcademy\Python_stack\DjangoAssignment>call "C:\Users\ابداع\Desktop\Axsos Academy\Python_stack\my_environments\djangoPy3Env\Scripts\activate"
+-------
+(djangoPy3Env) C:\Users\ابداع\Desktop\AxsosAcademy\Python_stack\DjangoAssignment>django-admin startproject Users
+------
+(djangoPy3Env) C:\Users\ابداع\Desktop\AxsosAcademy\Python_stack\DjangoAssignment>cd Users
+
+(djangoPy3Env) C:\Users\ابداع\Desktop\AxsosAcademy\Python_stack\DjangoAssignment\Users>python manage.py startapp UsersApp
+
+(djangoPy3Env) C:\Users\ابداع\Desktop\AxsosAcademy\Python_stack\DjangoAssignment\Users>python manage.py makemigrations
+No changes detected
+
+(djangoPy3Env) C:\Users\ابداع\Desktop\AxsosAcademy\Python_stack\DjangoAssignment\Users>python manage.py migrate
+--------------------------------------------------------------
+python manage.py shell
+--------------------------------------------------------------
+from UsersApp.models import User
+--------------------------------------------------------------
+>>> User.objects.all()
+<QuerySet []>
+--------------------------------------------------------------
+User.objects.create(username="Thapet" , lastname="Tome" , email="Thapet.ll@you.com" , Age="55")
+--------------------------------------------------------------
+User.objects.create(username="Ahmed" , lastname="Tome" , email="khaled.ll@you.com" , Age="77")
+--------------------------------------------------------------
+User.objects.create(username="Raed" , lastname="Tome" , email="Raed.ll@you.com" , Age="24")
+--------------------------------------------------------------
+>>> User.objects.all().values()
+<QuerySet [{'id': 1, 'username': 'Thapet', 'lastname': 'Tome', 'email': 'Thapet.ll@you.com', 'Age': 55, 'created_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>)}, {'id': 2, 'username': 'Ahmed', 'lastname': 'Tome', 'email': 'khaled.ll@you.com', 'Age': 77, 'created_at': datetime.datetime(2022, 9, 22, 8, 7, 44, 893123, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 7, 44, 893123, tzinfo=<UTC>)}, {'id': 3, 'username': 'Raed', 'lastname': 'Tome', 'email': 'Raed.ll@you.com', 'Age': 24, 'created_at': datetime.datetime(2022, 9, 22, 8, 8, 38, 19403, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 8, 38, 19403, tzinfo=<UTC>)}]>
+--------------------------------------------------------------
+>>> User.objects.all().first().__dict__
+--------------------------------------------------------------
+>>> User.objects.all().last().__dict__
+--------------------------------------------------------------
+>>> user3=User.objects.get(id=3)
+>>> user3.lastname="Pancakes"
+>>> user3.save()
+>>> User.objects.all().last()
+<User: User object (3)>
+>>> User.objects.all().last().__dict__
+{'_state': <django.db.models.base.ModelState object at 0x000001A71CFA4A90>, 'id': 3, 'username': 'Raed', 'lastname': 'Pancakes', 'email': 'Raed.ll@you.com', 'Age': 24, 'created_at': datetime.datetime(2022, 9, 22, 8, 8, 38, 19403, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 14, 8, 874581, tzinfo=<UTC>)}
+>>>
+--------------------------------------------------------------
+>>> user2=User.objects.get(id=2)
+>>> user2.delete()
+(1, {'UsersApp.User': 1})
+>>> User.objects.all().values()
+<QuerySet [{'id': 1, 'username': 'Thapet', 'lastname': 'Tome', 'email': 'Thapet.ll@you.com', 'Age': 55, 'created_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>)}, {'id': 3, 'username': 'Raed', 'lastname': 'Pancakes', 'email': 'Raed.ll@you.com', 'Age': 24, 'created_at': datetime.datetime(2022, 9, 22, 8, 8, 38, 19403, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 14, 8, 874581, tzinfo=<UTC>)}]>
+--------------------------------------------------------------
+>>> User.objects.all().order_by('username').values()
+<QuerySet [{'id': 3, 'username': 'Raed', 'lastname': 'Pancakes', 'email': 'Raed.ll@you.com', 'Age': 24, 'created_at': datetime.datetime(2022, 9, 22, 8, 8, 38, 19403, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 14, 8, 874581, tzinfo=<UTC>)}, {'id': 1, 'username': 'Thapet', 'lastname': 'Tome', 'email': 'Thapet.ll@you.com', 'Age': 55, 'created_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>)}]>
+>>>
+--------------------------------------------------------------
+>>> User.objects.all().order_by('-username').values()
+<QuerySet [{'id': 3, 'username': 'Raed', 'lastname': 'Pancakes', 'email': 'Raed.ll@you.com', 'Age': 24, 'created_at': datetime.datetime(2022, 9, 22, 8, 8, 38, 19403, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 14, 8, 874581, tzinfo=<UTC>)}, {'id': 1, 'username': 'Thapet', 'lastname': 'Tome', 'email': 'Thapet.ll@you.com', 'Age': 55, 'created_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 22, 8, 6, 43, 535187, tzinfo=<UTC>)}]>
+--------------------------------------------------------------
