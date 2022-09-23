@@ -1,80 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ninja Gold</title>
     <style>
-        main{
+        main {
             display: flex;
             justify-content: space-evenly;
-            margin-top: 6% ;
+            margin-top: 6%;
         }
-        .squares{
+
+        .squares {
             height: 40%;
             width: 20%;
             border: 2px solid black;
         }
-        .btn{
+
+        .squ {
+            width: 130%;
+            border: 2px solid black;
+            margin-right: 20px;
+        }
+
+        .btn {
             background-color: blueviolet;
             color: white;
             box-shadow: 4px 4px 4px 4px black;
             margin-left: 33%;
             font-family: cursive;
         }
-        .first_p{
-            margin-left: 4% ;
+
+        .first_p {
+            margin-left: 5%;
             margin-top: 3%;
             font-family: cursive;
             color: red;
+            font-size: 20px;
         }
-        h2{
-            margin-top: 8%;
-            margin-left: 4%;
+
+        h2 {
+            margin-top: 3%;
+            margin-left: 5%;
             font-family: cursive;
         }
-        h1{
+
+        h1 {
             margin-left: 33%;
             font-family: cursive;
         }
-        .earns{
+
+        .earns {
             font-family: cursive;
             color: red;
             margin-left: 20%;
         }
+
+        .zero {
+            border: 2px solid black;
+            width: 100px;
+            height: 20px;
+            margin-left: 5%;
+            color: green;
+            font-family: cursive;
+        }
+
+        .activity {
+            color: green;
+            font-family: cursive;
+            font-size: 20px;
+            border: 2px solid black;
+            margin-left: 65px;
+        }
     </style>
 </head>
+
 <body>
-<p class="first_p">Your Gold <input type="text" name="MyGold" placeholder="0"></p>
 
-<main>
-    <div class="squares">
-        <h1>Farm</h1>
-        <p class="earns" >(earns 10-20 gold)</p>
-        <p><input class="btn" type="submit" , name="FindGold" , value="Find_Gold" ></p>
-    </div>
-    <div class="squares">
-        <h1>Cave</h1>
-        <p class="earns" >(earns 10-20 gold)</p>
-        <p><input class="btn"  type="submit" , name="FindGold" , value="Find_Gold" ></p> 
-    </div>
-    <div class="squares">
-        <h1>House</h1>
-        <p class="earns" >(earns 10-20 gold)</p>
-        <p><input class="btn" type="submit" , name="FindGold" , value="Find_Gold" ></p>
-    </div>
-    <div class="squares">
-        <h1>Quest</h1>
-        <p class="earns" >(earns/takes 0-50 gold)</p>
-        <p><input class="btn" type="submit" , name="FindGold" , value="Find_Gold" ></p>
-    </div>
-</main>
-
-<footer>
-    <h2>Activites</h2>
-</footer>
-
-    
+    <p class="first_p">Your Gold
+    <div class="zero" name="MyGold">{{request.session.gold}}</div>
+    </p>
+    <main>
+        <div class="squares">
+            <h1>Farm</h1>
+            <p class="earns">(earns 10-20 gold)</p>
+            <form action="increasegolds/" method="post">
+                {% csrf_token %}
+                <p><input class="btn" type="submit" , name="Farm" , value="Find_Gold"></p>
+                <input type="hidden" name="which_form" value="Farm">
+            </form>
+        </div>
+        <div class="squares">
+            <h1>Cave</h1>
+            <p class="earns">(earns 10-20 gold)</p>
+            <form action="increasegolds/" method="post">
+                {% csrf_token %}
+                <p><input class="btn" type="submit" , name="Cave" , value="Find_Gold"></p>
+                <input type="hidden" name="which_form" value="Cave">
+            </form>
+        </div>
+            <div class="squares">
+                <h1>House</h1>
+                <p class="earns">(earns 10-20 gold)</p>
+                <form action="increasegolds/" method="post">
+                    {% csrf_token %}
+                <p><input class="btn" type="submit" , name="House" , value="Find_Gold"></p>
+                <input type="hidden" name="which_form" value="House">
+            </form>
+            </div>
+        </form>
+        <form action="incORdec/">
+            <div class="squ">
+                <h1>Quest</h1>
+                <p class="earns">(earns/takes 0-50 gold)</p>
+                <p><input class="btn" type="submit" , name="FindGold" , value="Find_Gold"></p>
+                <input type="hidden" name="which_form" value="Quest">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h2>Activites :</h2>
+        <textarea class="activity" name="Activites" cols="90" rows="5">
+        {% for i in Array %}
+        {{Array.i}}
+        {%endfor%}
+        </textarea>
+    </footer>
 </body>
+
 </html>
