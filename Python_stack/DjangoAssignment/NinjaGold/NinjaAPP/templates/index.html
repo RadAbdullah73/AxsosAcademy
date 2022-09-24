@@ -9,14 +9,15 @@
     <style>
         main {
             display: flex;
-            justify-content: space-evenly;
             margin-top: 6%;
+            margin-left: 5%;
         }
 
         .squares {
             height: 40%;
             width: 20%;
             border: 2px solid black;
+            margin-right: 30px;
         }
 
         .squ {
@@ -27,7 +28,8 @@
 
         .btn {
             background-color: blueviolet;
-            color: white;
+            color: white ;
+            font-weight: bold;
             box-shadow: 4px 4px 4px 4px black;
             margin-left: 33%;
             font-family: cursive;
@@ -43,8 +45,9 @@
 
         h2 {
             margin-top: 3%;
-            margin-left: 5%;
+            margin-left: 4.8%;
             font-family: cursive;
+            
         }
 
         h1 {
@@ -66,20 +69,30 @@
             color: green;
             font-family: cursive;
         }
+        .textarea{
+            height: 150px;
+            width: 84.2%;
+            overflow: auto;
+            margin-left: 65px;
+            border: 2px solid black;
+        }
 
-        .activity {
+        .red {
+            font-size: 18px;
+            color: red;
+            font-family: cursive;
+        }
+
+        .green {
+            font-size: 18px;
             color: green;
             font-family: cursive;
-            font-size: 20px;
-            border: 2px solid black;
-            margin-left: 65px;
         }
     </style>
 </head>
 
 <body>
-
-    <p class="first_p">Your Gold
+    <p class="first_p">Your Gold:
     <div class="zero" name="MyGold">{{request.session.gold}}</div>
     </p>
     <main>
@@ -101,17 +114,18 @@
                 <input type="hidden" name="which_form" value="Cave">
             </form>
         </div>
-            <div class="squares">
-                <h1>House</h1>
-                <p class="earns">(earns 10-20 gold)</p>
-                <form action="increasegolds/" method="post">
-                    {% csrf_token %}
+        <div class="squares">
+            <h1>House</h1>
+            <p class="earns">(earns 10-20 gold)</p>
+            <form action="increasegolds/" method="post">
+                {% csrf_token %}
                 <p><input class="btn" type="submit" , name="House" , value="Find_Gold"></p>
                 <input type="hidden" name="which_form" value="House">
             </form>
-            </div>
+        </div>
         </form>
         <form action="incORdec/">
+            {% csrf_token %}
             <div class="squ">
                 <h1>Quest</h1>
                 <p class="earns">(earns/takes 0-50 gold)</p>
@@ -122,11 +136,15 @@
     </main>
     <footer>
         <h2>Activites :</h2>
-        <textarea class="activity" name="Activites" cols="90" rows="5">
-        {% for i in Array %}
-        {{Array.i}}
-        {%endfor%}
-        </textarea>
+        <div class="textarea" >
+            {% for act in request.session.list reversed %}
+            {% if "Lost" in act %}
+            <p class="red">{{act}}</p>
+            {%else%}
+            <p class="green">{{act}}</p>
+            {%endif%}
+            {%endfor%}
+        </div>
     </footer>
 </body>
 
