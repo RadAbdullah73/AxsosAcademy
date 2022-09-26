@@ -1,0 +1,67 @@
+python manage.py makemigrations
+python manage.py migrate
+----------
+python manage.py shell
+from DojoAndNinjasApp.models import *
+Dojo.objects.create(name ="Ahmed" , city="Tulkarem" , state="California")
+---------------
+<QuerySet [<Dojo: Dojo object (1)>]>
+>>> Dojo.objects.create(name ="Mohammed" , city="Tulkarem" , state="California")
+<Dojo: Dojo object (2)>
+>>> Dojo.objects.create(name ="Saed" , city="Tulkarem" , state="California")
+<Dojo: Dojo object (3)>
+----------------------
+ Dojo.objects.all().delete()
+-----------------------
+>>> Dojo.objects.create(name ="samer" , city="Tulkarem" , state="California")
+<Dojo: Dojo object (4)>
+>>> Dojo.objects.create(name ="Amjad" , city="Tulkarem" , state="California")
+<Dojo: Dojo object (5)>
+>>> Dojo.objects.create(name ="Omar" , city="Tulkarem" , state="California")
+<Dojo: Dojo object (6)>
+>>>
+------------------------
+>>> first_dojo = Dojo.objects.get(id=4)
+>>> first_ninja = Ninja.objects.create(first_name ="Saed" , last_name="Tome" , ninja=first_dojo )
+>>> Second_ninja = Ninja.objects.create(first_name ="Zen" , last_name="Tome" , ninja=first_dojo )
+>>> Third_ninja = Ninja.objects.create(first_name ="Zaid" , last_name="Tome" , ninja=first_dojo )
+----------------------
+>>> third_dojo = Dojo.objects.get(id=5)
+>>> thapet = Ninja.objects.create(first_name ="Saed" , last_name="Tome" , ninja=second_dojo )
+>>> khaled = Ninja.objects.create(first_name ="khaled" , last_name="Tome" , ninja=second_dojo )
+>>> yamen = Ninja.objects.create(first_name ="yamen" , last_name="Tome" , ninja=second_dojo )
+>>> third_dojo = Dojo.objects.get(id=6)
+>>> momen = Ninja.objects.create(first_name ="momen" , last_name="Tome" , ninja=third_dojo )
+>>> adham = Ninja.objects.create(first_name ="adham" , last_name="Tome" , ninja=third_dojo )
+>>> adam = Ninja.objects.create(first_name ="adam" , last_name="Tome" , ninja=third_dojo )
+>>>
+
+-----------------------
+>>> Dojo.objects.first().ninjas.values()
+<QuerySet [{'id': 1, 'first_name': 'Saed', 'last_name': 'Tome', 'ninja_id': 4, 'created_at': datetime.datetime(2022, 9, 26, 16, 59, 46, 700168, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 16, 59, 46, 700168, tzinfo=<UTC>)}, {'id': 2, 'first_name': 'Zen', 'last_name': 'Tome', 'ninja_id': 4, 'created_at': datetime.datetime(2022, 9, 26, 17, 25, 47, 747133, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 17, 25, 47, 747133, tzinfo=<UTC>)}, {'id': 3, 'first_name': 'Zaid', 'last_name': 'Tome', 'ninja_id': 4, 'created_at': datetime.datetime(2022, 9, 26, 17, 26, 3, 344450, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 17, 26, 3, 344450, tzinfo=<UTC>)}]>
+---------------------
+>>> Dojo.objects.last().ninjas.values()
+<QuerySet [{'id': 7, 'first_name': 'momen', 'last_name': 'Tome', 'ninja_id': 6, 'created_at': datetime.datetime(2022, 9, 26, 17, 32, 14, 460541, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 17, 32, 14, 460541, tzinfo=<UTC>)}, {'id': 8, 'first_name': 'adham', 'last_name': 'Tome', 'ninja_id': 6, 'created_at': datetime.datetime(2022, 9, 26, 17, 33, 36, 654116, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 17, 33, 36, 654116, tzinfo=<UTC>)}, {'id': 9, 'first_name': 'adam', 'last_name': 'Tome', 'ninja_id': 6, 'created_at': datetime.datetime(2022, 9, 26, 17, 33, 50, 826836, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 17, 33, 50, 826836, tzinfo=<UTC>)}]>
+-----------------
+>>> Ninja.objects.last().ninja.__dict__
+{'_state': <django.db.models.base.ModelState object at 0x000002CB9F267310>, 'id': 6, 'name': 'Omar', 'city': 'Tulkarem', 'state': 'California', 'created_at': datetime.datetime(2022, 9, 26, 16, 52, 48, 388389, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 26, 16, 52, 48, 388389, tzinfo=<UTC>)}
+>>>
+-----------------------
+    Text=models.TextField()
+
+------------------------
+(djangoPy3Env) C:\Users\ابداع\Desktop\Ra'd\DojoAndNinjas>python manage.py makemigrations
+Migrations for 'DojoAndNinjasApp':
+  DojoAndNinjasApp\migrations\0002_dojo_text.py
+    - Add field Text to dojo
+
+(djangoPy3Env) C:\Users\ابداع\Desktop\Ra'd\DojoAndNinjas>python manage.py migrate
+Operations to perform:
+  Apply all migrations: DojoAndNinjasApp, admin, auth, contenttypes, sessions
+Running migrations:
+  Applying DojoAndNinjasApp.0002_dojo_text... OK
+-----------------------------
+>>> from DojoAndNinjasApp.models import *
+>>> Dojo.objects.create(name ="Ahmed" , city="Tulkarem" , state="California")
+<Dojo: Dojo object (7)>
+ The TextField Will be default value ='old dojo'
