@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <style>
+                h1,
+        h2,
+        h3 {
+            color: red;
+            font-family: cursive;
+        }
+        p{
+            font-family: cursive;
+        }
+
+        div {
+            font-family: cursive;
+        }
+        body{
+            margin-left: 20px;
+        }
+        .btn{
+            box-shadow: 2px 2px 2px 2px black;
+            background-color: purple;
+            color: white;
+            font-family: cursive;
+            margin-right: 50px;
+            margin-top: 10px;
+        }
+        select{
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>{{firstPup.first_name}} {{firstPup.last_name}}</h1>
+    <h2>ID : {{firstPup.id}}</h2>
+    <P>Notes : {{firstPup.notes}}</P>
+    <h3>Books : </h3>
+    {%for b in firstPup.books.all%}
+    {{b.title}}
+    <br>
+    {%endfor%}
+    <form action="/addBookToPup/{{firstPup.id}}" method="post">
+        {% csrf_token %}
+        <select name="selectBook">
+            {% for Z in Books %}
+            {% if Z not in firstPup.books.all %}
+            <option value="{{Z.id}}">{{Z.title}}</option>
+            {%endif%}
+            {%endfor%}
+        </select>
+        <p><input class="btn" type="submit" , value="Add Books"></p>
+    </form>
+</body>
+
+</html>

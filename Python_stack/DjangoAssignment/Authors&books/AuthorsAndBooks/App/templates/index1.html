@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add A Publisher</title>
+    <style>
+               main{
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        h1 , p{
+            color: red;
+            font-family: cursive;
+        }
+        .btn{
+            box-shadow: 2px 2px 2px 2px black;
+            background-color: purple;
+            color: white;
+            font-family: cursive;
+            margin-right: 50px;
+            margin-top: 10px;
+        }
+        tr{
+            background-color: #eeeeee;
+            font-family: cursive
+        }
+        table{
+            margin-top: 20px;
+        }
+        span{
+            display: flex;
+            justify-content: flex-start
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="/addPublisher" , method="post">
+            {% csrf_token %}
+            <h1>Add a Publisher</h1>
+            <p>First Name: <span><input type="text" name="first_name"></span></p>
+            <p>Last Name: <span><input type="text" name="last_name"></span> </p>
+            <p>Notes: <span><input type="text" name="notes"></span> </p>
+            <input class="btn" type="submit" , value="Add">
+        </form>
+        <table border="1">
+            <thead>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Action</td>
+            </thead>
+            {%for pup in publishers%}
+            <tr>
+                <td>{{pup.id}}</td>
+                <td>{{pup.first_name}} {{pup.last_name}}</td>
+                <td><a href="/publishers/{{pup.id}}">View</a></td>
+            </tr>
+            {%endfor%}
+        </table>
+        <form action="/goToBooks">
+            <input class="btn" type="submit" , value="Back to Books Table">
+        </form>
+    </main>
+</body>
+
+</html>

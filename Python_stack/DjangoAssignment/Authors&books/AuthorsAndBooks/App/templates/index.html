@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add A Book</title>
+    <style>
+        main{
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        h1 , p{
+            color: red;
+            font-family: cursive;
+        }
+        .btn{
+            box-shadow: 2px 2px 2px 2px black;
+            background-color: purple;
+            color: white;
+            font-family: cursive;
+            margin-right: 50px;
+            margin-top: 10px;
+        }
+        tr{
+            background-color: #eeeeee;
+            font-family: cursive
+        }
+        table{
+            margin-top: 20px;
+        }
+        span{
+            display: flex;
+            justify-content: flex-start
+
+        }
+    
+    
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="/addBook" , method="post">
+            {% csrf_token %}
+            <h1>Add a Book</h1>
+            <p>Title : <span><input  type="text" name="title"></span></p>
+            <p>Descreption :<span><input type="text" name="desc"></span></p>
+            <input class="btn" type="submit" , value="Add">
+        </form>
+        <table border="1">
+            <thead>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Action</td>
+            </thead>
+            {%for bk in books%}
+            <tr>
+                <td>{{bk.id}}</td>
+                <td>{{bk.title}}</td>
+                <td><a href="/books/{{bk.id}}">View</a></td>
+            </tr>
+            {%endfor%}
+        </table>
+        <form action="/goToPublisher">
+            <input class="btn" type="submit" , value="Go to Publishers Table">
+        </form>
+    </main>
+</body>
+
+</html>
