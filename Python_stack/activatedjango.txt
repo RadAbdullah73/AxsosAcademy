@@ -1,1 +1,1 @@
-C:\Users\ابداع\Desktop\Axsos Academy\Python_stack\my_environments\djangoPy3Env\Scripts
+C:\Users\ابداع\Desktop\Django ENV\djangoPy3Env\Scripts

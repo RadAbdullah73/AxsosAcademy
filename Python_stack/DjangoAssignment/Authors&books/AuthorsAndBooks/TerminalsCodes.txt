@@ -1,0 +1,106 @@
+python manage.py makemigrations
+python manage.py migrate
+-------------------
+python manage.py shell
+------------------
+>>> Book.objects.create(title = 'C Sharp' , desc='This is the first book explain C Sharp')
+<Book: Book object (1)>
+>>> Book.objects.create(title = 'Java' , desc='This is the first book explain Java')
+<Book: Book object (2)>
+>>> Book.objects.create(title = 'Python' , desc='This is the first book explain Python')
+<Book: Book object (3)>
+>>> Book.objects.create(title = 'PHP' , desc='This is the first book explain PHP')
+<Book: Book object (4)>
+>>> Book.objects.create(title = 'Ruby' , desc='This is the first book explain Ruby')
+<Book: Book object (5)>
+>>>
+--------------------
+>>> Publisher.objects.create(first_name = 'Jane' , last_name='Austen')
+<Publisher: Publisher object (1)>
+>>> Publisher.objects.create(first_name = 'Emily' , last_name='Dickinson')
+<Publisher: Publisher object (2)>
+>>> Publisher.objects.create(first_name = 'Fyodor ' , last_name='Dostoevsky')
+<Publisher: Publisher object (3)>
+>>> Publisher.objects.create(first_name = 'William' , last_name='Shakespeare')
+<Publisher: Publisher object (4)>
+>>> Publisher.objects.create(first_name = 'Lau' , last_name='Lau')
+<Publisher: Publisher object (5)>
+>>>
+--------------------
+>>> from App.models import *
+>>> c=Book.objects.get(title='C Sharp')
+>>> c.title = 'C#'
+>>> c.save()
+>>> Book.objects.get(title ='C#'
+...
+... )
+<Book: Book object (1)>
+>>> Book.objects.get(title ='C#').__dict__
+{'_state': <django.db.models.base.ModelState object at 0x000001D51BBF9060>, 'id': 1, 'title': 'C#', 'desc': 'This is the first book explain C Sharp', 'created_at': datetime.datetime(2022, 9, 27, 10, 9, 16, 361420, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 20, 52, 390970, tzinfo=<UTC>)}
+>>>
+-----------------
+>>> y=Publisher.objects.get(id=4)
+>>> y.first_name = 'Bill'
+>>> y.save()
+>>> Publisher.objects.get(id=4).__dict__
+{'_state': <django.db.models.base.ModelState object at 0x000001D51BBF9450>, 'id': 4, 'first_name': 'Bill', 'last_name': 'Shakespeare', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 13, 51, 725492, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 23, 26, 844176, tzinfo=<UTC>)}
+>>>
+------------------
+>>> Pub1.books.add(Book.objects.get(id=1))
+>>> Pub1.books.add(Book.objects.get(id=2))
+>>>
+-------------------
+>>> Pub2 = Publisher.objects.get(id=2)
+>>> Pub2.books.add(Book.objects.get(id=1))
+>>> Pub2.books.add(Book.objects.get(id=2))
+>>> Pub2.books.add(Book.objects.get(id=3))
+>>> Pub2.books.all()
+<QuerySet [<Book: Book object (1)>, <Book: Book object (2)>, <Book: Book object (3)>]>
+>>>
+--------------------
+>>> Pub3 = Publisher.objects.get(id=3)
+>>> Pub3.books.add(Book.objects.get(id=1))
+>>> Pub3.books.add(Book.objects.get(id=2))
+>>> Pub3.books.add(Book.objects.get(id=3))
+>>> Pub3.books.add(Book.objects.get(id=4))
+>>> Pub3.books.all()
+<QuerySet [<Book: Book object (1)>, <Book: Book object (2)>, <Book: Book object (3)>, <Book: Book object (4)>]>
+>>>
+--------------------
+>>> Pub4.books.add(Book.objects.get(id=1))
+>>> Pub4.books.add(Book.objects.get(id=2))
+>>> Pub4.books.add(Book.objects.get(id=3))
+>>> Pub4.books.add(Book.objects.get(id=4))
+>>> Pub4.books.add(Book.objects.get(id=5))
+----------------------
+>>> Book3=Book.objects.get(id=3)
+>>> Book3.publishers.all()
+<QuerySet [<Publisher: Publisher object (2)>, <Publisher: Publisher object (3)>, <Publisher: Publisher object (4)>]>
+>>> Book3.publishers.all().values()
+<QuerySet [{'id': 2, 'first_name': 'Emily', 'last_name': 'Dickinson', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 12, 54, 467811, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 12, 54, 467811, tzinfo=<UTC>)}, {'id': 3, 'first_name': 'Fyodor ', 'last_name': 'Dostoevsky', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 13, 23, 512951, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 13, 23, 512951, tzinfo=<UTC>)}, {'id': 4, 'first_name': 'Bill', 'last_name': 'Shakespeare', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 13, 51, 725492, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 23, 26, 844176, tzinfo=<UTC>)}]>
+>>>
+----------------------
+>>> PubDelete=Book3.publishers.first()
+>>> PubDelete.delete()
+(4, {'App.Publisher_books': 3, 'App.Publisher': 1})
+>>> PubDelete.save()
+>>> Book3.publishers.all().values()
+<QuerySet [{'id': 3, 'first_name': 'Fyodor ', 'last_name': 'Dostoevsky', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 13, 23, 512951, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 13, 23, 512951, tzinfo=<UTC>)}, {'id': 4, 'first_name': 'Bill', 'last_name': 'Shakespeare', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 13, 51, 725492, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 23, 26, 844176, tzinfo=<UTC>)}]>
+>>> Book3.publishers.all()
+<QuerySet [<Publisher: Publisher object (3)>, <Publisher: Publisher object (4)>]>
+>>>
+----------------------
+>>> Pub5=Publisher.objects.get(id=5)
+>>> Pub5
+<Publisher: Publisher object (5)>
+>>> Pub5.books.add(Book2)
+>>> Book2.publishers.all()
+<QuerySet [<Publisher: Publisher object (1)>, <Publisher: Publisher object (3)>, <Publisher: Publisher object (4)>, <Publisher: Publisher object (5)>]>
+------------
+>>> Pub3.books.all().values()
+<QuerySet [{'id': 1, 'title': 'C#', 'desc': 'This is the first book explain C Sharp', 'created_at': datetime.datetime(2022, 9, 27, 10, 9, 16, 361420, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 20, 52, 390970, tzinfo=<UTC>)}, {'id': 2, 'title': 'Java', 'desc': 'This is the first book explain Java', 'created_at': datetime.datetime(2022, 9, 27, 10, 9, 50, 97461, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 9, 50, 97461, tzinfo=<UTC>)}, {'id': 3, 'title': 'Python', 'desc': 'This is the first book explain Python', 'created_at': datetime.datetime(2022, 9, 27, 10, 10, 8, 560388, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 10, 8, 560388, tzinfo=<UTC>)}, {'id': 4, 'title': 'PHP', 'desc': 'This is the first book explain PHP', 'created_at': datetime.datetime(2022, 9, 27, 10, 10, 20, 625103, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 10, 20, 625103, tzinfo=<UTC>)}]>
+>>>
+-------------
+>>> Book5.publishers.all().values()
+<QuerySet [{'id': 4, 'first_name': 'Bill', 'last_name': 'Shakespeare', 'notes': 'The Publisher is Dead !', 'created_at': datetime.datetime(2022, 9, 27, 10, 13, 51, 725492, tzinfo=<UTC>), 'updated_at': datetime.datetime(2022, 9, 27, 10, 23, 26, 844176, tzinfo=<UTC>)}]>
+>>>
