@@ -40,7 +40,7 @@
         {% csrf_token %}
         <p>New Title <span><input type="text" name="Ntitle" value="{{show.title}}"></span></p>
         <p>New Network <span><input type="text" name="Nnetwork" value="{{show.network}}" ></span> </p>
-        <p>New Relase Date <span> <input type="date" name="Ndate" value="{{show.relaseDate}}"></span></p>
+        <p>New Relase Date <span> <input type="date" name="Ndate" value={{show.relaseDate |date:'Y-m-d'}}></span></p>
         <p>New Descreptin <span><textarea name="Ndesc" cols="30" rows="10" placeholder="{{show.description}}"></textarea></span> </textarea></p>
         <p><input class="btn" type="submit" value="Update"></p>
     </form>
