@@ -14,16 +14,18 @@ class ShowManager(models.Manager):
         if len(postData["desc"]) >0 and len(postData["desc"]) < 11 :
             errors["desc"] = "Description field should be at least 10 characters"
 
-        # List=postData['date']
-        # Year=List[0]+List[1]+List[2]+List[3]
-        # Month=List[5]+List[6]
-        # Day=List[8]+List[9]
-        # if  int(Year)>int(strftime ("%Y")):
-        #     errors["date"] = "invalid date"
-        # if int(Month)>int(strftime ("%m")):
-        #     errors["date"] = "invalid date"
-        # if int(Day)>int(strftime ("%d")):
-        #         errors["date"] = "invalid date"
+        List=postData['date']
+        Year=List[0]+List[1]+List[2]+List[3]
+        Month=List[5]+List[6]
+        Day=List[8]+List[9]
+        if  int(Year)>int(strftime ("%Y")):
+            errors["date"] = "invalid date"
+        if int(Year)==int(strftime ("%Y")):
+            if int(Month)>int(strftime ("%m")):
+                errors["date"] = "invalid date"
+        if int(Month)==int(strftime ("%m")) :  
+            if int(Day)>int(strftime ("%d")):
+                errors["date"] = "invalid date"
             
         return errors
 
