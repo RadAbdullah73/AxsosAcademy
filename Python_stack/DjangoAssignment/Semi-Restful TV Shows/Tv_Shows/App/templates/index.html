@@ -29,6 +29,13 @@
             font-family: cursive;
             color: white;
         }
+        .opn{
+            font-size: 13px;
+            color: blue;
+        }
+        li{
+            font-family: cursive;
+        }
 
     </style>
     
@@ -36,17 +43,26 @@
 
 <body>
     <main>
-    <form action="/shows/create/" method="post">
+    <form action="/shows/create/" method="POST">
         {% csrf_token %}
         <h1>Add A New Show</h1>
         <a href="shows/">Show All Shows</a><br>
         <p>Title <span><input type="text" name="title"></span> </p>
         <p>Network <span><input type="text" name="network"></span> </p>
         <p>Relase Date <span><input type="date" name="date" ></span> </p>
-        <p>Descreptin <span><textarea name="desc" cols="30" rows="10"></textarea></span> </textarea></p>
+        <p>Descreptin<span class="opn">(Optional)</span> <span><textarea name="desc" cols="30" rows="10"></textarea></span> </textarea></p>
         <p><input class="btn" type="submit" value="Create"></p>
     </form>
 </main>
+<div>
+{% if messages %}
+<ul class="messages">    
+    {% for message in messages %}    
+        <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+    {% endfor %}
+</ul>
+{% endif %}
+</div>
 </body>
 
 </html>
