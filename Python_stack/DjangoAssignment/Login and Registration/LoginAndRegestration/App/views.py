@@ -18,6 +18,7 @@ def create(request):
         User.objects.create(first_name = request.POST['first_name'] , last_name=request.POST['last_name'], 
                             email=request.POST['email'] , password = pw_hash )
         request.session['first_name']=User.objects.last().first_name
+        request.session['WhatWeDo']='Successfully Registered'
         return redirect('/success')
 
 def success(request):
@@ -32,6 +33,7 @@ def login(request):
         logged_user = user[0]
         if bcrypt.checkpw(request.POST['log_pass'].encode(), logged_user.password.encode()):
             request.session['first_name'] = logged_user.first_name
+            request.session['WhatWeDo']='Successfully Logged in'
             return redirect('/success')
         else:
             messages.error(request , 'Email or Password is incorect')

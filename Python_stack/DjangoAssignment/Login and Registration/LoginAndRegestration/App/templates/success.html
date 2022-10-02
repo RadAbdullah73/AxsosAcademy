@@ -14,18 +14,23 @@
             font-family: cursive;
             color: blue;
             text-decoration: none;
-            margin: 25px;
+            margin-top: 35px;
         }
         main{
             display: flex;
             justify-content: space-between;
 
         }
+        p{
+            font-family: cursive;
+            margin-top:40px;
+        }
     </style>
 </head>
 <body>
     <main>
     <h1>Success :) -> Welcome {{request.session.first_name}}</h1>
+    <p>{{request.session.WhatWeDo}}</p>
     <a href="/delete">Log Out</a>
 </main>
 </body>
