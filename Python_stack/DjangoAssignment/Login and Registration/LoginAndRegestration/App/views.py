@@ -33,6 +33,8 @@ def login(request):
         if bcrypt.checkpw(request.POST['log_pass'].encode(), logged_user.password.encode()):
             request.session['first_name'] = logged_user.first_name
             return redirect('/success')
+        else:
+            messages.error(request , 'Email or Password is incorect')
         return redirect('/')
     return redirect('/')
         
