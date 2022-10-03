@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wall</title>
+    <style>
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+        *{
+            font-family: cursive;
+        }
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <form action="/Wall/CreateMessage" method="post">
+                {% csrf_token %}
+                <p class="red">Post A Message</p>
+                <p><textarea name="message" cols="120" rows="7" placeholder="What do you think about?"></textarea></p>
+                <p><input type="submit" value="Post a message"></p>
+            </form>
+            <div>
+                {%if msgs%}
+                {%for msg in msgs reversed %}
+                <p>-------------------------------------------------------------------</p>
+                <p>{{msg.user.first_name}} Posted : {{msg.message}}</p>
+                {%for c in msg.comments.all%}
+                <p>{{c.user.first_name}} Comment: : {{c.comment}}</p>
+                {%endfor%}
+                <br>
+                <form action="/Wall/AddComment" method="post">
+                    {% csrf_token %}
+                    <textarea name="cmt" cols="50" rows="5" placeholder="Share with us :)"></textarea ><br>
+                    <input type="submit" value="Add Comment">
+                    <input type="hidden" name="hide" value="{{msg.id}}">
+                </form>
+                <br><br <p>-------------------------------------------------------------------</p>
+                {%endfor%}
+                {%endif%}
+            </div>
+        </div>
+        <div>
+            <a href="/Wall/delete">Log out</a>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
