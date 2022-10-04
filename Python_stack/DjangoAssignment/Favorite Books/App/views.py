@@ -51,6 +51,7 @@ def logout(request):
 def mainpage(request):
     user1 = User.objects.get(id=request.session['id'])
     context={
+        'u': User.objects.get(id=request.session['id']),
         'user' : User.objects.get(id=request.session['id']).first_name,
         'books' : User.objects.get(id=request.session['id']).books_uploded.all(),
         'booksall': Book.objects.all(),
