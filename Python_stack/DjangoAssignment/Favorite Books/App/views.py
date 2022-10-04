@@ -56,6 +56,7 @@ def mainpage(request):
         'books' : User.objects.get(id=request.session['id']).books_uploded.all(),
         'booksall': Book.objects.all(),
         'favBooks' : User.objects.get(id=request.session['id']).liked_books.all(),
+        'userFav' : user1.liked_books.all(),
     }
     return render (request , 'main.html' , context)
  # errors = User.objects.basic_validator(request.POST)
