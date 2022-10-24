@@ -1,15 +1,13 @@
 import java.util.Date;
+import java.text.SimpleDateFormat;
 public class AlfredQuotes {
     
     public String basicGreeting() {
-        // You do not need to code here, this is an example method
         return "Hello, lovely to see you. How are you?";
     }
     
     public String guestGreeting(String name) {
-        // YOUR CODE HERE
         return String.format ("Hello %s ,its nice to see you here !" , name );
-
     }
     
     public String dateAnnouncement() {
@@ -37,11 +35,23 @@ public class AlfredQuotes {
         String string3 = string1.concat(string2);
         return string3 ;
     }
+    // For sensi Bonus ********************************
+    public String period(String name) {
+        Date date = new Date();
+        SimpleDateFormat formatter = new SimpleDateFormat("HH");
+        String strDate = formatter.format(date); 
+        int time=Integer.parseInt(strDate);
+         if(time > 5 && time <12){
+           return "Good Morning " + name;
+         }
+        else if (time>12 && time<17){
+            return"Good Afternoon " + name;
+        }
+        else{
+            return"Good evening " + name;
+        }
+
+        }
     
-    
-	// NINJA BONUS
-	// See the specs to overload the guessGreeting method
-    // SENSEI BONUS
-    // Write your own AlfredQuote method using any of the String methods you have learned!
 }
 
