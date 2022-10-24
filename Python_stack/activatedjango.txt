@@ -1,1 +1,8 @@
 C:\Users\ابداع\Desktop\Django ENV\djangoPy3Env\Scripts
+
+
+
+
+sudo ln -s /etc/nginx/sites-available/LoginAndRegestration /etc/nginx/sites-enabled
+
+sudo vim /etc/nginx/sites-available/LoginAndRegestration

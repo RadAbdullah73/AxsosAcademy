@@ -47,7 +47,6 @@ def logout(request):
     del request.session['first_name']
     return redirect('/')
 
-
 def mainpage(request):
     user1 = User.objects.get(id=request.session['id'])
     context={
@@ -84,13 +83,11 @@ def BookDetails(request , id):
         }
     return render (request ,'fav.html' , context )
 
-
 def addToFav(request ,id):
     user1 = User.objects.get(id=request.session['id'])
     NewFav=Book.objects.get(id=id)
     NewFav.users_who_like.add(user1)
     return redirect ('/books/' +str(id))
-
 
 def remove(request ,id ):
     user1 = User.objects.get(id=request.session['id'])
@@ -108,7 +105,6 @@ def DeleteUpdate(request ,id):
         UpdBook.desc=request.POST['newdesc']
         UpdBook.save()
         return redirect ('/books/' + str(id))
-
 
 def back(request):
     return redirect('/MainPage')
