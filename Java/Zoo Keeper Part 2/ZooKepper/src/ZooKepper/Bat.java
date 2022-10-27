@@ -1,14 +1,20 @@
 package ZooKepper;
 
 public class Bat extends Mammal {
-	private int energyLevel =300 ;
+//	private int energyLevel =300 ;
 	
-	public int getEnergyLevel() {
-		return energyLevel;
+	
+//	We can use Constructer without defining a new attribute . 
+	public Bat() {
+		this.setEnergyLevel(300);
 	}
-	public void setEnergyLevel(int energyLevel) {
-		this.energyLevel = energyLevel;
-	}
+	
+//	public int getEnergyLevel() {
+//		return energyLevel;
+//	}
+//	public void setEnergyLevel(int energyLevel) {
+//		this.energyLevel = energyLevel;
+	
 	public void fly() {
 		this.setEnergyLevel(this.getEnergyLevel());
 		System.out.println("Weeeeeeeeeeeeee");
