@@ -11,9 +11,11 @@ public class Test {
 //		g.eatBananas();
 //		g.climb();
 		Bat b = new Bat();
-		b.fly();
+//		b.fly();
 		b.eatHumans();
 		b.attackTown();
+		b.fly();
+//		System.out.println(b.getEnergyLevel());
 		
 	
 	}

@@ -1,8 +1,16 @@
 package ZooKepper;
 
 public class Bat extends Mammal {
+	private int energyLevel =300 ;
+	
+	public int getEnergyLevel() {
+		return energyLevel;
+	}
+	public void setEnergyLevel(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
 	public void fly() {
-		this.setEnergyLevel(300);
+		this.setEnergyLevel(this.getEnergyLevel());
 		System.out.println("Weeeeeeeeeeeeee");
 		int Energy = this.getEnergyLevel() ;
 		Energy -= 50 ;
