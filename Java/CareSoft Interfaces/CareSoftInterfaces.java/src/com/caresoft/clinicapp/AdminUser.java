@@ -14,7 +14,7 @@ public AdminUser(Integer id, String role) {
 		@Override
 		public ArrayList<String> reportSecurityIncidents() {
 			// TODO Auto-generated method stub
-			return securityIncidents;
+			return this.securityIncidents;
 		}
 		@Override
 		public void printSecurityIncidents() {
