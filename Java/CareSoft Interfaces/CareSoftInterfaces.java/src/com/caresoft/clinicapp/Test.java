@@ -8,6 +8,7 @@ public class Test {
         Physician doctor10 = new Physician(1);
         AdminUser roseTyler = new AdminUser(2, "Companion");
         AdminUser donnaNoble = new AdminUser(3, "Companion");
+        
         System.out.println("\n==</span>======== Physician Tests ==========\n");
         String pinTest1 = doctor10.assignPin(42)? "FAIL" : "PASS";
         System.out.printf("Physician pin assign test 1: %s\n", pinTest1);
