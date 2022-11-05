@@ -1,5 +1,7 @@
 package com.codingdojo.BooksAPI.controllers;
 
+import java.util.List;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
@@ -25,6 +27,12 @@ public class BookController {
 		return "show.jsp" ;
 		
 	}
+	  @RequestMapping("/books")
+	    public String index(Model model) {
+	        List<Book> books = bookService.allBooks();
+	        model.addAttribute("books", books);
+	        return "index.jsp";
+	    }
 	
 	
 
