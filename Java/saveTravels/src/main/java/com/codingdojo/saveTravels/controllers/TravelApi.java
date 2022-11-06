@@ -44,16 +44,20 @@ public String create (@Valid @ModelAttribute("travel") Travels travel  , Binding
       }
 }
 @RequestMapping("/edit/{id}")
-public String show(@PathVariable("id") Long id , Model model , @ModelAttribute("travel1") Travels travel1, BindingResult result) {
+public String show(@PathVariable("id") Long id , Model model , @ModelAttribute("travel1") Travels travel1) {
 	Travels tr = travelService.findTravel(id);
 	model.addAttribute("thisTravel" , tr);
 	return "edit.jsp";
 }
 @PutMapping("/update/{id}")
-public String update(@Valid @ModelAttribute("travel1") Travels travel1, BindingResult result) {
+public String update(@Valid @ModelAttribute("travel1") Travels travel1 , BindingResult result, @PathVariable("id") Long id ,Model model) {
 	  if (result.hasErrors()) {
+		  Travels tr = travelService.findTravel(id);
+    	  model.addAttribute("thisTravel" , tr);
+		 
           return "edit.jsp";
       } else {
+    	 
           travelService.updateTr(travel1);
           return "redirect:/";
       }
