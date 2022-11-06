@@ -16,22 +16,22 @@
     <p>
         <form:label path="expenseName">ExpenseName</form:label>
         <form:errors path="expenseName"/>
-        <form:input path="expenseName"/>
+        <form:input path="expenseName" value="${thisTravel.expenseName}" />
     </p>
     <p>
         <form:label path="vendor">Vendor</form:label>
         <form:errors path="vendor"/>
-        <form:input path="vendor"/>
+        <form:input path="vendor" value="${thisTravel.vendor}"/>
     </p>
     <p>
         <form:label path="amount">Amount</form:label>
         <form:errors path="amount"/>
-        <form:input type="number" path="amount"/>
+        <form:input type="number" path="amount" value="${thisTravel.amount}"/>
     </p>
     <p>
         <form:label path="description">description</form:label>
         <form:errors path="description"/>
-         <form:textarea path="description"/>     
+         <form:textarea path="description" value="${thisTravel.description}"/>     
     </p>    
     <input type="submit" value="Submit"/>
 </form:form>
