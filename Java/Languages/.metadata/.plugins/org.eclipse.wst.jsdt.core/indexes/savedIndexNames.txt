@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\ÇÈÏÇÚ\Desktop\Languages\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1488476229.index
+108677479.index
+1581071652.index
+342289176.index
+698374279.index

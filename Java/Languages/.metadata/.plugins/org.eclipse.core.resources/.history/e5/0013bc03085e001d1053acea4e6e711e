@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ page isErrorPage="true" %> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1256">
+<title>Show Language</title>
+</head>
+<body>
+<h1>Name : ${ShowThis.name}</h1>
+<h1>Creator : ${ShowThis.creator}</h1>
+<h1>Versoin: ${ShowThis.version}</h1>
+<a href = "/edit/${ShowThis.id}">Edit</a>
+<a href = "/delete/${travel.id}">Delete</a>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.codingdojo.languages.repositories;
+
+public class LanguagesRepository {
+
+}

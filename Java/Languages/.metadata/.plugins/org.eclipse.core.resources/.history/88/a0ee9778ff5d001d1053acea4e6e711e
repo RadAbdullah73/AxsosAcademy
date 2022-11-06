@@ -1,0 +1,5 @@
+package com.codingdojo.languages.services;
+
+public class LanguageService {
+
+}
