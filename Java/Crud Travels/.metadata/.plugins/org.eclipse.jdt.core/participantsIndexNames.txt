@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\ÇÈÏÇÚ\Desktop\aaaaaaaa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\378460184.index
+\saveTravels\src\main\java
+C:\Users\ÇÈÏÇÚ\Desktop\Axsos\Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\378460184.index
+\saveTravels\src\main\java
+C:\Users\ÇÈÏÇÚ\Desktop\Axsos\Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2236267873.index
+\BooksAPI\src\main\java
+C:\Users\ÇÈÏÇÚ\Desktop\Axsos\Java\Counter\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4183693249.index
+\Counter\src\main\java

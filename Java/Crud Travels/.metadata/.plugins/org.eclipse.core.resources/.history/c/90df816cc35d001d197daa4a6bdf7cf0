@@ -1,0 +1,5 @@
+package com.codingdojo.saveTravels.repositories;
+
+public class TravelRepository {
+
+}
