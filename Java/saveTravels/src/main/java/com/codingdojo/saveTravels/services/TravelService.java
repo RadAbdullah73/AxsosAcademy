@@ -24,21 +24,25 @@ public class TravelService {
 	 public void deleteTravel (Long id) {
 		 travelRepository.deleteById(id);
 	 }
-	 public Travels updateTravel(Long id, String ExpenseName, String Vendor,Integer amount, String descreption) {
-		 Optional<Travels> travel1 = travelRepository.findById(id);
-		 if(travel1.isPresent()) {
-		 travel1.get().setExpenseName(ExpenseName);
-		 travel1.get().setVendor(Vendor);
-		 travel1.get().setAmount(amount);
-		 travel1.get().setDescription(descreption);
-		 travelRepository.save(travel1.get());
-		 return travel1.get() ;
-		 }
-		 else {
-			 return null ;
-		 }
-		 
+	 public Travels updateTr(Travels b) {
+	     return travelRepository.save(b) ;
 	 }
+	 
+//	 public Travels updateTravel(Long id, String ExpenseName, String Vendor,Integer amount, String descreption) {
+//		 Optional<Travels> travel1 = travelRepository.findById(id);
+//		 if(travel1.isPresent()) {
+//		 travel1.get().setExpenseName(ExpenseName);
+//		 travel1.get().setVendor(Vendor);
+//		 travel1.get().setAmount(amount);
+//		 travel1.get().setDescription(descreption);
+//		 travelRepository.save(travel1.get());
+//		 return travel1.get() ;
+//		 }
+//		 else {
+//			 return null ;
+//		 }
+//		 
+//	 }
 	 // retrieves a book
 	 public Travels findTravel(Long id) {
 	     Optional<Travels> optionalTravel = travelRepository.findById(id);

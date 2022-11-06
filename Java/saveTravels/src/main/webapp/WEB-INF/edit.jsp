@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ page isErrorPage="true" %> 
+<%@ page isErrorPage="true" %>   
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,27 +10,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Save Travels</h1>
-<table border="1">
-<tr>
-<th>Expense</th>
-<th>Vendor</th>
-<th>Amount</th>
-<th>Actions</th>
-</tr>
-<c:forEach var="travel" items="${all}">
-<tr>
-        <td><p><c:out value="${travel.expenseName}"></c:out></p></td>
-        <td><p><c:out value="${travel.vendor}"></c:out></p></td>
-        <td><p><c:out value="${travel.amount}"></c:out></p></td>
-        <td><p><a href="/edit/${travel.id}" >>Edit</a></p></td>
-</tr>
-        </c:forEach>
-
-
-</table>
-
-<form:form action="/travels" method="post" modelAttribute="travel">
+<h1>Edit Expense</h1>
+<form:form action="/update/${thisTravel.id}" method="post" modelAttribute="travel1">
+    <input type="hidden" name="_method" value="put">
     <p>
         <form:label path="expenseName">ExpenseName</form:label>
         <form:errors path="expenseName"/>
@@ -39,7 +21,7 @@
     <p>
         <form:label path="vendor">Vendor</form:label>
         <form:errors path="vendor"/>
-        <form:textarea path="vendor"/>
+        <form:input path="vendor"/>
     </p>
     <p>
         <form:label path="amount">Amount</form:label>
@@ -47,14 +29,11 @@
         <form:input type="number" path="amount"/>
     </p>
     <p>
-       <form:label path="description">Description</form:label>
+        <form:label path="description">description</form:label>
         <form:errors path="description"/>
-        <form:textarea path="description"/>
+         <form:textarea path="description"/>     
     </p>    
     <input type="submit" value="Submit"/>
-</form:form>    
-
-
-
+</form:form>
 </body>
 </html>

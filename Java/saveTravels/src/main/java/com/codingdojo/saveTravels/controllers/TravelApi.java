@@ -11,8 +11,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import com.codingdojo.saveTravels.models.Travels;
 import com.codingdojo.saveTravels.services.TravelService;
 @Controller
@@ -40,6 +43,26 @@ public String create (@Valid @ModelAttribute("travel") Travels travel  , Binding
           return "redirect:/";
       }
 }
+@RequestMapping("/edit/{id}")
+public String show(@PathVariable("id") Long id , Model model , @ModelAttribute("travel1") Travels travel1, BindingResult result) {
+	Travels tr = travelService.findTravel(id);
+	model.addAttribute("thisTravel" , tr);
+	return "edit.jsp";
+}
+@PutMapping("/update/{id}")
+public String update(@Valid @ModelAttribute("travel1") Travels travel1, BindingResult result) {
+	  if (result.hasErrors()) {
+          return "edit.jsp";
+      } else {
+          travelService.updateTr(travel1);
+          return "redirect:/";
+      }
+	
+	
+}
+
+
+
 
 
 }

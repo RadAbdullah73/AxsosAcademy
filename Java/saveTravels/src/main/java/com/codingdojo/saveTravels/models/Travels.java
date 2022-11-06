@@ -21,10 +21,10 @@ public class Travels {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotNull
-    @Size(min = 5, max = 200)
+    @Size(min = 5, max = 200,message="ExpenseName must be at least 5 characters.")
     private String expenseName;
     @NotNull
-    @Size(min = 5, max = 200 ,message="ExpenseName must be at least 5 characters.")
+    @Size(min = 5, max = 200 )
     private String vendor;
     @NotNull
     @Min(value=1 , message = "Amount must be greater than 0")
