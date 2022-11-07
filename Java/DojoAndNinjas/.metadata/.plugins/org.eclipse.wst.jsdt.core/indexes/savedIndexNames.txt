@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\ÇÈÏÇÚ\Desktop\DojoAndNinjas\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3879899229.index
+2305445090.index
+3421611371.index
+1640217816.index
+2032872698.index
+3143523673.index
+1925550530.index
