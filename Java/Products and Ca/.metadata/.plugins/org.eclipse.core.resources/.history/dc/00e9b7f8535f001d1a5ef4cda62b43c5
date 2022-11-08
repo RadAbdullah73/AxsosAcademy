@@ -1,0 +1,68 @@
+package com.codingdojo.ProductsAndCatagories.services;
+import java.util.List;
+import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.codingdojo.ProductsAndCatagories.models.Category;
+import com.codingdojo.ProductsAndCatagories.models.Product;
+import com.codingdojo.ProductsAndCatagories.repositores.CatogoriesRepository;
+import com.codingdojo.ProductsAndCatagories.repositores.ProductsRepository;
+
+import java.util.List;
+import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CpService {
+	private final CatogoriesRepository catogoryRepository;
+	private final ProductsRepository productRepository;
+	
+	public CpService(CatogoriesRepository catogoryRepository , ProductsRepository productRepository ) {
+	     this.catogoryRepository = catogoryRepository;
+	     this.productRepository = productRepository;
+	 }
+	public List<Category> allCatogories() {
+	     return catogoryRepository.findAll();
+	 }
+	 public Category createCategory(Category b) {
+	     return catogoryRepository.save(b);
+	 }
+	 public void deleteCategory (Long id) {
+		 catogoryRepository.deleteById(id);
+	 }
+	 public Category updateCategory(Category b) {
+	     return catogoryRepository.save(b) ;
+	 }
+	 public Category findCategory(Long id) {
+	     Optional<Category> optionalCategory = catogoryRepository.findById(id);
+	     if(optionalCategory.isPresent()) {
+	         return optionalCategory.get();
+	     } else {
+	         return null;
+	     }
+	 }
+//	 ---------------------------------------------------------------
+	 public List<Product> allProducts() {
+	     return productRepository.findAll();
+	 }
+	 public Product createProduct(Product b) {
+	     return productRepository.save(b);
+	 }
+	 public void deletecreateProduct (Long id) {
+		 productRepository.deleteById(id);
+	 }
+	 public Product updateProduct(Product b) {
+	     return productRepository.save(b) ;
+	 }
+	 public Product findProduct(Long id) {
+	     Optional<Product> optionalProduct = productRepository.findById(id);
+	     if(optionalProduct.isPresent()) {
+	         return optionalProduct.get();
+	     } else {
+	         return null;
+	     }
+	 }
+
+}

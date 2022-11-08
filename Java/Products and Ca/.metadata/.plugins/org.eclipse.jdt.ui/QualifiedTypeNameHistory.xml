@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
+    <fullyQualifiedTypeName name="javax.persistence.PreUpdate"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.codingdojo.ProductsAndCatagories.repositores.CatogoriesRepository"/>
+    <fullyQualifiedTypeName name="com.codingdojo.ProductsAndCatagories.repositores.ProductsRepository"/>
+    <fullyQualifiedTypeName name="com.codingdojo.ProductsAndCatagories.services.CpService"/>
+    <fullyQualifiedTypeName name="com.codingdojo.ProductsAndCatagories.models.Product"/>
+    <fullyQualifiedTypeName name="com.codingdojo.ProductsAndCatagories.models.Category"/>
+</qualifiedTypeNameHistroy>

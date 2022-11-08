@@ -1,0 +1,5 @@
+package com.codingdojo.ProductsAndCatagories.models;
+
+public class Category {
+
+}

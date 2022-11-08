@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\ÇÈÏÇÚ\Desktop\Products and Ca\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2383242287.index
+984627503.index
+2225461408.index
+1724389042.index
+1450683455.index
+3920111087.index
+2383242287.index
+4105456244.index
