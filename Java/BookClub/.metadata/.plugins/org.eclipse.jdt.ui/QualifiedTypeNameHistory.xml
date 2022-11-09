@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
+    <fullyQualifiedTypeName name="javax.persistence.PreUpdate"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.format.annotation.DateTimeFormat"/>
+    <fullyQualifiedTypeName name="com.codingdojo.LogAndReg.models.User"/>
+    <fullyQualifiedTypeName name="com.codingdojo.LogAndReg.repositores.UserRepository"/>
+    <fullyQualifiedTypeName name="com.codingdojo.LogAndReg.models.LoginUser"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.codingdojo.LogAndReg.services.UserService"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.codingdojo.LogAndReg.repositores.BookRepository"/>
+    <fullyQualifiedTypeName name="com.codingdojo.LogAndReg.models.Book"/>
+</qualifiedTypeNameHistroy>

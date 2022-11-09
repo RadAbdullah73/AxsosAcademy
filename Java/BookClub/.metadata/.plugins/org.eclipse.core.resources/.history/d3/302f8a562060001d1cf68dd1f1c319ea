@@ -1,0 +1,5 @@
+package com.codingdojo.LogAndReg.repositores;
+
+public interface BookRepository {
+
+}

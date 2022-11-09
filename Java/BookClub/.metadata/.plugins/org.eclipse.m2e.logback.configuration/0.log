@@ -1,0 +1,589 @@
+2022-11-09 10:09:23,802 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-09 10:10:38,667 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.codingdojo.LogAndReg:LogAndReg:0.0.1-SNAPSHOT @ C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\pom.xml.
+2022-11-09 10:10:51,060 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LogAndReg/src/main/java
+2022-11-09 10:10:51,061 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LogAndReg/src/main/resources
+2022-11-09 10:10:51,077 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LogAndReg/src/main/resources
+2022-11-09 10:10:51,096 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LogAndReg/src/test/java
+2022-11-09 10:11:06,969 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 34 sec
+2022-11-09 10:11:06,977 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-09 10:11:09,329 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.codingdojo.LogAndReg:LogAndReg:0.0.1-SNAPSHOT @ C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\pom.xml.
+2022-11-09 10:11:12,891 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LogAndReg/src/main/java
+2022-11-09 10:11:12,892 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LogAndReg/src/main/resources
+2022-11-09 10:11:12,920 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LogAndReg/src/main/resources
+2022-11-09 10:11:12,925 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LogAndReg/src/test/java
+2022-11-09 10:11:17,172 [Worker-2: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for LogAndReg
+2022-11-09 10:11:17,191 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2022-11-09 10:11:20,206 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:11:20,214 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:11:20,222 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:11:20,513 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:11:20,620 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:11:20,621 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:11:20,622 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:11:20,622 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LogAndReg
+2022-11-09 10:11:20,624 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LogAndReg
+2022-11-09 10:11:20,962 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:11:20,964 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:26,908 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.codingdojo.LogAndReg:LogAndReg:0.0.1-SNAPSHOT @ C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\pom.xml.
+2022-11-09 10:14:27,470 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2022-11-09 10:14:27,563 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2022-11-09 10:14:29,543 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:29,544 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:29,548 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:14:29,550 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:14:29,559 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:29,559 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:29,559 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:14:29,560 [Worker-4: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LogAndReg
+2022-11-09 10:14:29,560 [Worker-4: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LogAndReg
+2022-11-09 10:14:29,569 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:29,569 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:30,990 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mindrot/jbcrypt/0.4/jbcrypt-0.4-sources.jar
+2022-11-09 10:14:31,240 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:31,240 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:31,245 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:14:31,272 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:14:31,278 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:31,279 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:31,279 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:14:31,326 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mindrot/jbcrypt/0.4/jbcrypt-0.4-sources.jar
+2022-11-09 10:14:31,334 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mindrot:jbcrypt:0.4
+2022-11-09 10:14:32,373 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:32,374 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:32,374 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:14:32,375 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:14:32,381 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:14:32,382 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:14:32,382 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:15:00,056 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:15:00,057 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:15:00,059 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:15:00,078 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:15:00,086 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:15:00,087 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:15:00,087 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:15:14,117 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:15:14,118 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:15:14,121 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:15:14,131 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:15:14,140 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:15:14,148 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:15:14,148 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:15:37,940 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:15:37,940 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:15:37,943 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:15:37,954 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:15:37,963 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:15:37,964 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:15:37,964 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:16:02,617 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:16:02,618 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:16:02,621 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:16:02,647 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:16:02,657 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:16:02,657 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:16:02,658 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:16:22,696 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:16:22,697 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:16:22,698 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:16:22,699 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:16:22,705 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:16:22,705 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:16:22,706 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:18:26,140 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:18:26,140 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:18:26,143 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:18:26,170 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:18:26,181 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:18:26,181 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:18:26,182 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:18:59,892 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:18:59,893 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:18:59,897 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:18:59,929 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:18:59,938 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:18:59,938 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:18:59,939 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:19:01,024 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:19:01,025 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:19:01,025 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:19:01,026 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:19:01,032 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:19:01,032 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:19:01,033 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:20:02,182 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:20:02,183 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:20:02,185 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:20:02,203 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:20:02,214 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:20:02,214 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:20:02,214 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:21:02,186 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:21:02,189 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:21:02,192 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:21:02,217 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:21:02,228 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:21:02,228 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:21:02,229 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:22:27,758 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:22:27,764 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:22:27,766 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:22:27,781 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:22:27,787 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:22:27,787 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:22:27,787 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:24:14,337 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:24:14,338 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:24:14,340 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:24:14,353 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:24:14,360 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:24:14,360 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:24:14,362 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:31:22,195 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:31:22,203 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:31:22,204 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:31:22,206 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:31:22,217 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:31:22,217 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:31:22,217 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:31:29,638 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:31:29,639 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:31:29,639 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:31:29,640 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:31:29,656 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:31:29,656 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:31:29,657 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:37:34,640 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:37:34,641 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:37:34,644 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:37:34,655 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:37:34,662 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:37:34,663 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:37:34,663 [Worker-15: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:39:44,463 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:39:44,463 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:39:44,466 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:39:44,507 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:39:44,512 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:39:44,512 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:39:44,513 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:40:52,251 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:40:52,252 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:40:52,254 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:40:52,262 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:40:52,268 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:40:52,268 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:40:52,268 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:42:12,717 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:42:12,718 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:42:12,720 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:42:12,738 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:42:12,743 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:42:12,744 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:42:12,744 [Worker-19: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:43:40,116 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:43:40,117 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:43:40,119 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:43:40,153 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:43:40,158 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:43:40,159 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:43:40,159 [Worker-18: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:45:39,178 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:45:39,179 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:45:39,181 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:45:39,191 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:45:39,196 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:45:39,197 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:45:39,198 [Worker-22: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 10:48:09,586 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:48:09,586 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:48:09,588 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 10:48:09,599 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 10:48:09,609 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 10:48:09,610 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 10:48:09,610 [Worker-21: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:00:37,843 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:00:37,844 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:00:37,845 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:00:37,846 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:00:37,876 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:00:37,877 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:00:37,877 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:10:51,540 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:10:51,541 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:10:51,543 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:10:51,571 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:10:51,581 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:10:51,581 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:10:51,581 [Worker-14: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:12:25,152 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:12:25,153 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:12:25,155 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:12:25,165 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:12:25,170 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:12:25,170 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:12:25,171 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:14:57,429 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:14:57,429 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:14:57,430 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:14:57,431 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:14:57,436 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:14:57,436 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:14:57,436 [Worker-26: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:29:25,710 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:29:25,711 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:29:25,736 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:29:25,746 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:29:25,751 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:29:25,752 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:29:25,752 [Worker-34: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:30:33,591 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:30:33,591 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:30:33,593 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:30:33,607 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:30:33,612 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:30:33,612 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:30:33,613 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:46:26,463 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:46:26,463 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:46:26,465 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:46:26,475 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:46:26,480 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:46:26,481 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:46:26,481 [Worker-39: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:47:29,250 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:47:29,251 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:47:29,253 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:47:29,266 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:47:29,299 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:47:29,299 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:47:29,299 [Worker-28: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 11:54:41,976 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:54:41,977 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:54:41,979 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 11:54:41,989 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 11:54:41,993 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 11:54:41,993 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 11:54:41,994 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:21:30,489 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:21:30,490 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:21:30,491 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:21:30,681 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:21:30,685 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:21:30,685 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:21:30,912 [Worker-40: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:21:53,643 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:21:53,643 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:21:53,646 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 12:21:53,662 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:21:53,669 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:21:53,670 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:21:53,671 [Worker-52: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:24:26,500 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:24:26,501 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:24:26,501 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:24:26,502 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:24:26,507 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:24:26,507 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:24:26,508 [Worker-54: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:24:34,269 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:24:34,270 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:24:34,270 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:24:34,271 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:24:34,276 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:24:34,276 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:24:34,276 [Worker-55: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:25:03,532 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:25:03,532 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:25:03,533 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:25:03,533 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:25:03,538 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:25:03,538 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:25:03,538 [Worker-53: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:31:23,135 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:31:23,136 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:31:23,136 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:31:23,137 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:31:23,141 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:31:23,141 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:31:23,141 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:36:48,905 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:36:48,906 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:36:48,908 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 12:36:48,939 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:36:48,950 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:36:48,951 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:36:48,951 [Worker-59: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 12:38:05,133 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:38:05,133 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:38:05,134 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:38:05,135 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 12:38:05,142 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 12:38:05,143 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 12:38:05,144 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 13:53:30,194 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 13:53:30,195 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 13:53:30,223 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 13:53:30,252 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 13:53:30,257 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 13:53:30,257 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 13:53:30,257 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:00:44,493 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:00:44,493 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:00:44,497 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:00:44,535 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:00:44,540 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:00:44,540 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:00:44,541 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:00:55,441 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:00:55,442 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:00:55,444 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:00:56,628 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:00:56,634 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:00:56,634 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:00:56,635 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:08:36,399 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:36,407 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:08:36,409 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:08:36,425 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:08:36,430 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:08:36,430 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:08:36,430 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:13:03,049 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:13:03,050 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:13:03,052 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:13:03,064 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:13:03,086 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:13:03,087 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:13:03,087 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:19:13,088 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:19:13,089 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:19:13,091 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:19:13,103 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:19:13,107 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:19:13,107 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:19:13,108 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:20:10,077 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:20:10,077 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:20:10,079 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:20:10,093 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:20:10,098 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:20:10,098 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:20:10,099 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:25:03,508 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:25:03,508 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:25:03,509 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:25:03,509 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:25:03,514 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:25:03,514 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:25:03,514 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:31:35,099 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:31:35,100 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:31:35,102 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:31:35,127 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:31:35,131 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:31:35,133 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:31:35,133 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:31:48,263 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:31:48,263 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:31:48,266 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:31:48,296 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:31:48,300 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:31:48,300 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:31:48,301 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:34:55,218 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:34:55,218 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:34:55,220 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:34:55,230 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:34:55,258 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:34:55,258 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:34:55,258 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:36:46,149 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:36:46,160 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:36:46,162 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:36:46,223 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:36:46,228 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:36:46,228 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:36:46,228 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:40:49,256 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:40:49,257 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:40:49,258 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:40:49,271 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:40:49,276 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:40:49,276 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:40:49,277 [Worker-78: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:48:44,489 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:48:44,489 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:48:44,491 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:48:44,502 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:48:44,507 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:48:44,507 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:48:44,508 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 14:52:46,358 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:52:46,358 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:52:46,360 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 14:52:46,388 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 14:52:46,393 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 14:52:46,393 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 14:52:46,393 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:01:48,062 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:01:48,094 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:01:48,096 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 15:01:48,107 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:01:48,111 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:01:48,111 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:01:48,112 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:02:45,818 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:02:45,819 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:02:45,821 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 15:02:45,850 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:02:45,855 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:02:45,855 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:02:45,855 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:05:32,563 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:05:32,563 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:05:32,566 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 15:05:32,583 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:05:32,587 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:05:32,588 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:05:32,588 [Worker-77: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:32:52,846 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:32:52,846 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:32:52,848 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 15:32:52,875 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:32:52,879 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:32:52,880 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:32:52,880 [Worker-80: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:34:58,263 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:34:58,263 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:34:58,264 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:34:58,264 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:34:58,269 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:34:58,269 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:34:58,269 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:40:43,165 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:40:43,165 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:40:43,165 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:40:43,166 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:40:43,172 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:40:43,172 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:40:43,172 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:47:17,200 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:47:17,201 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:47:17,203 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 15:47:17,213 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:47:17,218 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:47:17,218 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:47:17,218 [Worker-79: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:47:41,801 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:47:41,801 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:47:41,802 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:47:41,802 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:47:41,805 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:47:41,805 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:47:41,805 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:48:48,979 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:48:48,979 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:48:48,980 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:48:48,980 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:48:48,986 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:48:48,986 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:48:48,986 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 15:53:01,751 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:53:01,752 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:53:01,754 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 15:53:01,764 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 15:53:01,769 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 15:53:01,769 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 15:53:01,770 [Worker-61: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 16:22:28,790 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:22:28,791 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:22:28,802 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 16:22:28,802 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 16:22:28,805 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:22:28,805 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:22:28,806 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 16:22:29,949 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:22:29,949 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:22:29,951 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 16:22:30,012 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 16:22:30,017 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:22:30,017 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:22:30,017 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 16:33:52,521 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:33:52,521 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:33:52,522 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 16:33:52,523 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 16:33:52,527 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:33:52,527 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:33:52,528 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 16:39:06,247 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:39:06,255 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:39:06,259 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 16:39:06,289 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 16:39:06,295 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 16:39:06,295 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 16:39:06,295 [Worker-76: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:01:23,994 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:01:23,994 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:01:23,995 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:01:23,995 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:01:23,999 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:01:23,999 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:01:24,000 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:03:17,642 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:03:17,642 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:03:17,643 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:03:17,644 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:03:17,649 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:03:17,649 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:03:17,650 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:03:45,377 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:03:45,377 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:03:45,378 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:03:45,378 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:03:45,383 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:03:45,383 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:03:45,383 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:06:39,562 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:06:39,563 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:06:39,563 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:06:39,564 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:06:39,569 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:06:39,570 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:06:39,570 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:09:16,198 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:09:16,199 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:09:16,199 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:09:16,200 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:09:16,204 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:09:16,205 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:09:16,205 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:10:14,760 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:10:14,761 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:10:14,763 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 17:10:14,939 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:10:14,944 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:10:14,944 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:10:14,944 [Worker-86: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:18:35,946 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:18:35,946 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:18:35,947 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:18:35,947 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:18:35,988 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:18:35,988 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:18:35,988 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:18:40,969 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:18:40,969 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:18:40,971 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 17:18:40,982 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:18:40,987 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:18:40,987 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:18:40,987 [Worker-71: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources
+2022-11-09 17:19:35,086 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:19:35,087 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:19:35,089 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-09 17:19:35,281 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-09 17:19:35,286 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-09 17:19:35,286 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-09 17:19:35,287 [Worker-82: Launching LogAndReg - LogAndRegApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Login And Regestration\LogAndReg\src\test\resources

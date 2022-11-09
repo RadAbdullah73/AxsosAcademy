@@ -1,0 +1,5 @@
+package com.codingdojo.LogAndReg.models;
+
+public class Book {
+
+}
