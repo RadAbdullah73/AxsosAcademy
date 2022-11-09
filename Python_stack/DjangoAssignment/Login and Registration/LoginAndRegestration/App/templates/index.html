@@ -40,7 +40,6 @@
         <div class="right">
             <h1>Regestration</h1>
             <form action="/create" method="post">
-                {% csrf_token %}
                 <table>
                     <tr>
                         <td>First Name</td>
@@ -68,18 +67,8 @@
                 </table>
             </form>
         </div>
-        <div class="msg">
-            {% if messages %}
-            <ul class="messages">
-                {% for message in messages %}
-                <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-        </div>
         <aside>
             <form action="/login" method="post">
-                {% csrf_token %}
                 <h1>Login</h1>
                 <table>
                     <tr>
