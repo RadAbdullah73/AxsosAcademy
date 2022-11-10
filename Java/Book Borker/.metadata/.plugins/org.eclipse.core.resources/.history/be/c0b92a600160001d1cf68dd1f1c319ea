@@ -1,0 +1,5 @@
+package com.codingdojo.LogAndReg.services;
+
+public class UserService {
+
+}

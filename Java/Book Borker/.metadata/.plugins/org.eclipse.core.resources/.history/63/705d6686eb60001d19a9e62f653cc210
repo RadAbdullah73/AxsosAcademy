@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ page isErrorPage="true" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1256">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Hello ${thisUser.userName} Welcome to </h2>
+<h1>The Book Borker</h1>
+<h2>Available Book to Borrow</h2>
+<table border="1">
+<tr>
+<th>ID</th>
+<th>Title</th>
+<th>Author Name</th>
+<th>Owner</th>
+<th>Actions</th>
+</tr>
+
+<c:forEach var="book" items="${AllBooks}">
+<c:choose>
+<c:when test = "${book.borrow == false }">
+<tr>
+<td>${book.id}</td>
+<td><a href="/books/${book.id}">${book.title}</a></td>
+<td>${book.author}</td>
+<td>${book.user.userName}</td>
+
+<c:when test = "${book.user.id == thisUser.id}" >
+<td><a href="boroow/${book.id}">Borrow</a></td>
+ </c:when>
+ <c:otherwise>
+ <td><a href="/editPage/${book.id}">Edit</a>||<a href="/delete/${book.id}">Delete</a></td>
+  </c:otherwise>
+ 
+
+</tr>
+ </c:when>
+ 
+  </c:choose>
+  </c:forEach>
+  </table>
+ <table border="1">
+<tr>
+<th>ID</th>
+<th>Title</th>
+<th>Author Name</th>
+<th>Owner</th>
+<th>Actions</th>
+</tr>
+<c:forEach var="book" items="${AllBooks}">
+<c:choose>
+<c:when test = "${book.borrow == true && book.userborrowed.id == thisUser.id }">
+<tr>
+<td>${book.id}</td>
+<td><a href="/books/${book.id}">${book.title}</a></td>
+<td>${book.author}</td>
+<td>${book.user.userName}</td>
+<td><a href="return/${book.id}">return</a></td>
+</tr>
+ </c:when>
+ <c:otherwise>
+  </c:otherwise>
+  </c:choose>
+  </c:forEach>
+  </table>
+
+</body>
+</html>
