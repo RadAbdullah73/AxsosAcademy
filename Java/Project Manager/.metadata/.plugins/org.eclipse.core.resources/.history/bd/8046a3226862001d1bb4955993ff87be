@@ -1,0 +1,5 @@
+package com.codingDojo.ProjectManager.models;
+
+public class LoginUser {
+
+}

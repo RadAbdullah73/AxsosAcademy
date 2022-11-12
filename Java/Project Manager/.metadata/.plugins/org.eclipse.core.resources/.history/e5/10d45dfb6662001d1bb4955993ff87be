@@ -1,0 +1,5 @@
+package com.codingDojo.ProjectManager.repositories;
+
+public interface UserRepository {
+
+}

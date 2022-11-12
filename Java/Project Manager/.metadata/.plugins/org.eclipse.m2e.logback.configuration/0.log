@@ -1,0 +1,586 @@
+2022-11-12 11:25:14,898 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-12 11:28:37,783 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.codingDojo.ProjectManager:ProjectManager:0.0.1-SNAPSHOT @ C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\pom.xml.
+2022-11-12 11:29:16,432 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjectManager/src/main/java
+2022-11-12 11:29:16,433 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjectManager/src/main/resources
+2022-11-12 11:29:16,484 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjectManager/src/main/resources
+2022-11-12 11:29:16,618 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjectManager/src/test/java
+2022-11-12 11:29:28,937 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 61 sec
+2022-11-12 11:29:28,949 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-12 11:29:29,803 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.codingDojo.ProjectManager:ProjectManager:0.0.1-SNAPSHOT @ C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\pom.xml.
+2022-11-12 11:29:32,460 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjectManager/src/main/java
+2022-11-12 11:29:32,461 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjectManager/src/main/resources
+2022-11-12 11:29:32,462 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjectManager/src/main/resources
+2022-11-12 11:29:32,464 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjectManager/src/test/java
+2022-11-12 11:29:35,914 [Worker-8: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ProjectManager
+2022-11-12 11:29:35,925 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2022-11-12 11:29:38,790 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:29:38,791 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:29:38,799 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:29:38,852 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:29:38,862 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:29:38,862 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:29:38,862 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:29:38,863 [Worker-12: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ProjectManager
+2022-11-12 11:29:38,865 [Worker-12: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ProjectManager
+2022-11-12 11:29:38,878 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:29:38,878 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:02,300 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.codingDojo.ProjectManager:ProjectManager:0.0.1-SNAPSHOT @ C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\pom.xml.
+2022-11-12 11:30:03,876 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2022-11-12 11:30:03,975 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2022-11-12 11:30:06,382 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:06,382 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:06,388 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:06,389 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:06,396 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:06,396 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:06,397 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:30:06,397 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ProjectManager
+2022-11-12 11:30:06,397 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ProjectManager
+2022-11-12 11:30:06,405 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:06,407 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:08,101 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:08,102 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:08,107 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:30:08,144 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:08,153 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:08,153 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:08,153 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:30:14,894 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:14,894 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:14,895 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:14,895 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:14,906 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:14,906 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:14,906 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:30:29,022 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:29,023 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:29,024 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:29,025 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:29,031 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:29,031 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:29,032 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:30:35,850 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:35,851 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:35,851 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:35,852 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:30:35,858 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:30:35,859 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:30:35,859 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:32:55,658 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:32:55,658 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:32:55,662 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:32:55,710 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:32:55,737 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:32:55,738 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:32:55,738 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:33:06,022 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:06,022 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:06,024 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:33:06,036 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:33:06,043 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:06,043 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:06,043 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:33:17,103 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:17,104 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:17,106 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:33:17,124 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:33:17,135 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:17,135 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:17,135 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:33:28,201 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:28,201 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:28,202 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:33:28,210 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:33:28,214 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:28,214 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:28,214 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:33:40,979 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:40,979 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:40,982 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:33:40,991 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:33:41,005 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:33:41,006 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:33:41,006 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:34:06,313 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:06,314 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:06,316 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:34:06,324 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:34:06,329 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:06,330 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:06,330 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:34:07,487 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:07,487 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:07,488 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:34:07,488 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:34:07,496 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:07,496 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:07,497 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:34:21,806 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:21,806 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:21,839 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:34:21,870 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:34:21,878 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:21,878 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:21,879 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:34:31,029 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:31,029 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:31,031 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:34:31,040 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:34:31,059 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:31,059 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:31,059 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:34:59,869 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:59,869 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:59,871 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:34:59,881 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:34:59,887 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:34:59,888 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:34:59,888 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:35:16,112 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:35:16,113 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:35:16,115 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:35:16,123 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:35:16,131 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:35:16,131 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:35:16,132 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:35:38,901 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:35:38,901 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:35:38,903 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:35:38,912 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:35:38,919 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:35:38,919 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:35:38,920 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:49:51,540 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:49:51,541 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:49:51,543 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:49:51,554 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:49:51,560 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:49:51,560 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:49:51,560 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:49:56,541 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:49:56,541 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:49:56,543 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:49:56,553 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:49:56,560 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:49:56,560 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:49:56,560 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:56:36,216 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:56:36,217 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:56:36,219 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:56:36,250 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:56:36,256 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:56:36,256 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:56:36,256 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:57:33,324 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:57:33,324 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:57:33,326 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:57:33,347 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:57:33,358 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:57:33,359 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:57:33,359 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 11:58:11,820 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:58:11,821 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:58:11,823 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 11:58:11,850 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 11:58:11,860 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 11:58:11,860 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 11:58:11,860 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:03:33,312 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:03:33,313 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:03:33,314 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 12:03:33,340 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:03:33,349 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:03:33,350 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:03:33,350 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:06:31,206 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:06:31,206 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:06:31,208 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 12:06:31,219 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:06:31,224 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:06:31,225 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:06:31,225 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:26:24,096 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:26:24,097 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:26:24,098 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:26:24,099 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:26:24,105 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:26:24,105 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:26:24,105 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:27:15,638 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:27:15,638 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:27:15,639 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:27:15,639 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:27:15,645 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:27:15,645 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:27:15,645 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:41:46,630 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:41:46,630 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:41:46,631 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:41:46,632 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:41:46,637 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:41:46,637 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:41:46,637 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:42:36,425 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:42:36,425 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:42:36,427 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 12:42:36,483 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:42:36,488 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:42:36,488 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:42:36,489 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:52:07,666 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:52:07,666 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:52:07,667 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:52:07,668 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:52:07,675 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:52:07,675 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:52:07,675 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:57:18,018 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:57:18,018 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:57:18,020 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 12:57:18,031 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:57:18,036 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:57:18,036 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:57:18,036 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 12:59:17,797 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:59:17,797 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:59:17,798 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 12:59:17,811 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 12:59:17,816 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 12:59:17,816 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 12:59:17,817 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:00:31,170 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:00:31,170 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:00:31,171 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:00:31,171 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:00:31,176 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:00:31,177 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:00:31,177 [Worker-33: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:00:59,823 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:00:59,824 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:00:59,824 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:00:59,825 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:00:59,830 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:00:59,831 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:00:59,831 [Worker-34: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:01:46,295 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:01:46,296 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:01:46,298 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:01:46,308 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:01:46,316 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:01:46,316 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:01:46,316 [Worker-18: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:11:25,468 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:11:25,469 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:11:25,493 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:11:25,503 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:11:25,507 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:11:25,507 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:11:25,508 [Worker-26: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:15:16,589 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:15:16,589 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:15:16,591 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:15:16,601 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:15:16,606 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:15:16,606 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:15:16,608 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:17:16,562 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:17:16,562 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:17:16,564 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:17:16,575 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:17:16,579 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:17:16,579 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:17:16,579 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:17:30,313 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:17:30,314 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:17:30,316 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:17:30,325 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:17:30,330 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:17:30,330 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:17:30,330 [Worker-40: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:18:55,074 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:18:55,075 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:18:55,075 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:18:55,086 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:18:55,091 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:18:55,092 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:18:55,092 [Worker-44: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:22:10,631 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:22:10,631 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:22:10,634 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:22:10,644 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:22:10,657 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:22:10,657 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:22:10,657 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:25:35,150 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:25:35,150 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:25:35,151 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:25:35,152 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:25:35,156 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:25:35,157 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:25:35,157 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:30:11,256 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:30:11,257 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:30:11,257 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:30:11,258 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:30:11,262 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:30:11,263 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:30:11,263 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:33:38,798 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:33:38,798 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:33:38,799 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:33:38,799 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:33:38,803 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:33:38,804 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:33:38,804 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:33:45,990 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:33:45,990 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:33:45,992 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:33:46,002 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:33:46,006 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:33:46,006 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:33:46,007 [Worker-51: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:42:36,992 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:42:36,993 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:42:36,993 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:42:36,994 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:42:36,999 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:42:36,999 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:42:36,999 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:51:24,577 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:51:24,577 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:51:24,578 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:51:24,578 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:51:24,585 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:51:24,585 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:51:24,585 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:56:34,432 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:56:34,432 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:56:34,434 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:56:34,480 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:56:34,485 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:56:34,485 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:56:34,485 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:57:19,391 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:57:19,391 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:57:19,393 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:57:19,476 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:57:19,498 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:57:19,500 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:57:19,500 [Worker-41: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:58:54,390 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:58:54,391 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:58:54,392 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:58:54,392 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:58:54,397 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:58:54,398 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:58:54,398 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 13:59:55,990 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:59:55,991 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:59:55,992 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 13:59:56,050 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 13:59:56,055 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 13:59:56,055 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 13:59:56,055 [Worker-59: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:23:13,222 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:23:13,223 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:23:13,225 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:23:13,245 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:23:13,249 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:23:13,249 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:23:13,250 [Worker-56: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:24:32,295 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:24:32,295 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:24:32,298 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:24:32,328 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:24:32,334 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:24:32,334 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:24:32,334 [Worker-69: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:32:52,152 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:32:52,152 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:32:52,154 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:32:52,165 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:32:52,169 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:32:52,169 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:32:52,170 [Worker-72: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:35:57,770 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:35:57,770 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:35:57,772 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:35:57,822 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:35:57,827 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:35:57,827 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:35:57,827 [Worker-73: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:39:32,604 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:39:32,604 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:39:32,607 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:39:32,618 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:39:32,649 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:39:32,649 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:39:32,649 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:44:05,876 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:44:05,876 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:44:05,878 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:44:05,902 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:44:05,908 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:44:05,908 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:44:05,909 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:46:53,708 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:46:53,708 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:46:53,710 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:46:53,720 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:46:53,724 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:46:53,724 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:46:53,725 [Worker-74: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:47:49,348 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:47:49,348 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:47:49,350 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:47:49,369 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:47:49,374 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:47:49,374 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:47:49,374 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:48:38,729 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:48:38,729 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:48:38,730 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:48:38,730 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:48:38,735 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:48:38,735 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:48:38,735 [Worker-80: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:53:44,332 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:53:44,333 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:53:44,335 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:53:44,362 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:53:44,367 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:53:44,368 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:53:44,368 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:55:08,362 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:55:08,363 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:55:08,364 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:55:08,375 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:55:08,379 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:55:08,379 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:55:08,379 [Worker-83: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:55:20,852 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:55:20,852 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:55:20,854 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:55:20,901 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:55:20,908 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:55:20,908 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:55:20,908 [Worker-81: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 14:57:23,243 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:57:23,243 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:57:23,245 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 14:57:23,255 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 14:57:23,269 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 14:57:23,269 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 14:57:23,270 [Worker-84: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:00:05,500 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:00:05,500 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:00:05,502 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:00:05,512 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:00:05,517 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:00:05,517 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:00:05,522 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:00:51,415 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:00:51,416 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:00:51,418 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:00:51,428 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:00:51,435 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:00:51,435 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:00:51,435 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:02:33,666 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:02:33,666 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:02:33,668 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:02:33,675 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:02:33,680 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:02:33,680 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:02:33,680 [Worker-79: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:13:05,306 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:13:05,307 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:13:05,309 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:13:05,319 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:13:05,349 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:13:05,350 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:13:05,350 [Worker-87: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:15:18,302 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:15:18,303 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:15:18,304 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:15:18,313 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:15:18,318 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:15:18,318 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:15:18,340 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:15:33,385 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:15:33,387 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:15:33,389 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:15:33,399 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:15:33,404 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:15:33,405 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:15:33,405 [Worker-75: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:21:26,948 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:21:26,949 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:21:26,950 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:21:26,960 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:21:26,966 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:21:26,966 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:21:26,966 [Worker-82: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:23:17,285 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:23:17,285 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:23:17,288 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:23:17,301 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:23:17,306 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:23:17,306 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:23:17,306 [Worker-92: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:26:01,770 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:26:01,771 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:26:01,773 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:26:01,783 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:26:01,787 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:26:01,787 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:26:01,802 [Worker-93: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:30:13,786 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:30:13,787 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:30:13,789 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:30:13,798 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:30:13,803 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:30:13,803 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:30:13,803 [Worker-101: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:34:53,576 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:34:53,576 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:34:53,578 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:34:53,600 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:34:53,606 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:34:53,606 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:34:53,606 [Worker-103: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:38:25,155 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:38:25,155 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:38:25,157 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:38:25,192 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:38:25,196 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:38:25,196 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:38:25,197 [Worker-104: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:38:59,127 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:38:59,127 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:38:59,129 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:38:59,150 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:38:59,169 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:38:59,169 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:38:59,170 [Worker-107: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:39:43,121 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:39:43,121 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:39:43,123 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:39:43,140 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:39:43,161 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:39:43,161 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:39:43,162 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:40:35,665 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:40:35,665 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:40:35,667 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:40:35,696 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:40:35,703 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:40:35,704 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:40:35,704 [Worker-108: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
+2022-11-12 15:41:35,201 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:41:35,201 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:41:35,203 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-12 15:41:35,213 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-12 15:41:35,217 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 15:41:35,218 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-12 15:41:35,218 [Worker-106: Launching ProjectManager - ProjectManagerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\ProjectManager\src\test\resources
