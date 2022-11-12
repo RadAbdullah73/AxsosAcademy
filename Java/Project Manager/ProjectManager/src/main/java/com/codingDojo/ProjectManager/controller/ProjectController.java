@@ -152,4 +152,10 @@ public class ProjectController {
 	    	userServ.updateUser(thisUser);	 
 	    	return "redirect:/home";	    
 }
+	    @GetMapping("del/{id}")
+	    public String del(@PathVariable("id") Long id , HttpSession session) {
+	    	userServ.deleteProject(id);
+	    	return "redirect:/home";
+	    	
+	    }
 }

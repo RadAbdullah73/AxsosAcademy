@@ -17,6 +17,14 @@
 <h2>Due Date :  ${thisProject.dueDate} </h2>
 <hr>
 <a href="/home">Back to Dashboard</a>
+<hr>
+<c:choose>
+<c:when test = "${thisProject.userLead.id == thisUser.id }">
+<td><a href="/del/${thisProject.id}">Delete Project</a></td>
+</c:when>
+<c:otherwise>
+  </c:otherwise>
+ </c:choose>
 
 
 </body>

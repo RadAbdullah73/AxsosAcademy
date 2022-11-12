@@ -80,7 +80,6 @@ INDEX VERSION 1.131+C:\Users\ÇÈÏÇÚ\Desktop\Project Manager\.metadata\.plugins\or
 2235422477.index
 4166470920.index
 2074400024.index
-3681443778.index
 1296990740.index
 2413346751.index
 4050912895.index
