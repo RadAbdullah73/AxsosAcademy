@@ -1,0 +1,21 @@
+package com.codingdojo.Countries.repositeries;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.codingdojo.Countries.models.Cities;
+import com.codingdojo.Countries.models.Countries;
+
+
+@Repository
+public interface CountriesRepo extends CrudRepository<Countries, Long> {
+	List <Countries> findAll();
+	@Query("SELECT c FROM Countries WHERE name LIKE %?1%")
+	List <Countries> findCountryByName(String name);
+	@Query("SELECT c.name , l.language , l.percentage FROM Countries c INNER JOIN c.languages l WHERE l.language LIKE %?1% ORDER BY l.percentage DESC")
+	List<Object[]> findCountryByLang(String lang);
+
+
+}

@@ -1,0 +1,73 @@
+package com.codingdojo.Countries.sevrices;
+import java.util.List;
+import java.util.Optional;
+
+import org.mindrot.jbcrypt.BCrypt;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.validation.BindingResult;
+
+import com.codingdojo.Countries.repositeries.CitiesRepo;
+import com.codingdojo.Countries.repositeries.CountriesRepo;
+import com.codingdojo.Countries.repositeries.languageRepo;
+
+
+@Service
+public class CountriesServices {
+	@Autowired
+    private languageRepo languageRepo;
+    private CountriesRepo CountryRepository;
+    private CitiesRepo CityRepository;
+    
+    public CountriesServices(languageRepo languageRepo , CountriesRepo CountryRepository , CitiesRepo CityRepository ) {
+	     this.languageRepo = languageRepo;
+	     this.CountryRepository = CountryRepository ;
+	     this.CityRepository = CityRepository ;
+	     
+	 }
+    public List<Object[]> solven(String lang){
+
+    	return this.CountryRepository.findCountryByLang(lang);
+    }
+   
+//	 public List<Project> allProjects() {
+//	     return projectRepository.findAll();
+//	 }
+//	 public Project createProject(Project b) {
+//	     return projectRepository.save(b);
+//	 }
+//	 public User updateUser(User b) {
+//	     return userRepo.save(b) ;
+//	 }
+//	 public Project updateProject(Project b) {
+//	     return projectRepository.save(b) ;
+//	 }
+//	 public Project findProject(Long id) {
+//	     Optional<Project> optionaPro = projectRepository.findById(id);
+//	     if(optionaPro.isPresent()) {
+//	         return optionaPro.get();
+//	     } else {
+//	         return null;
+//	     }
+//	 }
+//	 public void deleteProject (Long id) {
+//		 projectRepository.deleteById(id);
+//	 }
+//	 
+//	 public List <Project> notAllProjects(User user){
+//		 return projectRepository.findByUsersNotContains(user);
+//	 }
+//		 
+//		 public List <User> notAllUsers(Project prj){
+//			 return userRepo.findByProjectsNotContains(prj);
+//		 
+//		 
+//	 }
+//		 public List <Project> getJoinsProject(User user){
+//			 return projectRepository.findByUsersContains(user);
+//		 }
+    
+    
+    
+    
+}

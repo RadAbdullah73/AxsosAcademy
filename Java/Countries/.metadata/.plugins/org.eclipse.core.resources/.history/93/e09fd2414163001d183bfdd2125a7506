@@ -1,0 +1,5 @@
+package com.codingdojo.Countries.repositeries;
+
+public interface languageRepo {
+
+}

@@ -1,0 +1,111 @@
+package com.codingdojo.Countries.models;
+
+
+import org.springframework.format.annotation.DateTimeFormat;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import java.util.Date;
+
+@Entity
+@Table(name="city")
+public class Cities {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String name;
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String country_code;
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String district;
+    @NotNull
+    private int population;
+    // This will not allow the createdAt column to be updated after creation
+    @Column(updatable=false)
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date createdAt;
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date updatedAt;
+
+    @ManyToOne(fetch=FetchType.LAZY)
+    @JoinColumn(name="countryCities_id")
+    private Countries countryCities;
+
+    public Cities() {
+
+    }
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCountry_code() {
+		return country_code;
+	}
+
+	public void setCountry_code(String country_code) {
+		this.country_code = country_code;
+	}
+
+	public String getDistrict() {
+		return district;
+	}
+
+	public void setDistrict(String district) {
+		this.district = district;
+	}
+
+	public int getPopulation() {
+		return population;
+	}
+
+	public void setPopulation(int population) {
+		this.population = population;
+	}
+
+	public Date getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public Date getUpdatedAt() {
+		return updatedAt;
+	}
+
+	public void setUpdatedAt(Date updatedAt) {
+		this.updatedAt = updatedAt;
+	}
+
+	public Countries getCountryCities() {
+		return countryCities;
+	}
+
+	public void setCountryCities(Countries countryCities) {
+		this.countryCities = countryCities;
+	}
+
+
+
+
+	
+    
+}

@@ -1,0 +1,14 @@
+package com.codingdojo.Countries.repositeries;
+import java.util.List;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.codingdojo.Countries.models.Cities;
+import com.codingdojo.Countries.models.Countries;
+
+
+@Repository
+public interface CountriesRepo extends CrudRepository<Countries, Long> {
+	List <Countries> findAll();
+
+}
