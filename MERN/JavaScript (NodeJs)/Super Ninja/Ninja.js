@@ -27,7 +27,9 @@ class Sensei extends Ninja {
 }
   speakWisdom (){
      return this.drinkSake()
-}}
+}
+
+}
 const sensei1 = new Sensei("Ra'd");
 console.log(sensei1.wisdom);
 sensei1.speakWisdom();
